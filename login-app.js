@@ -256,7 +256,25 @@ const app = {
         app.showModal(`¿Cambiar ${state.selectedOrders.size} envíos a ${newStatus}?`, async () => {
             app.toggleLoading(true);
             const ids = Array.from(state.selectedOrders);
-            try { await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "updateOrdersStatus", merchantId: state.merchantId, orderIds: ids, newStatus: newStatus }) }); app.showToast('Estados actualizados'); app.loadOrders(); } catch (e) { }
+            try {
+                // await fetch(state.apiUrl, {
+                //     method: "POST",
+                //     body: JSON.stringify({
+                //         action: "updateOrdersStatus",
+                //         merchantId: state.merchantId,
+                //         orderIds: ids,
+                //         newStatus: newStatus }) });
+                await fetch(`api/legacy/merchants/${state.merchantId}/orders/status`, {
+                    headers: { 'Content-Type': 'application/json' },
+                    method: "PATCH",
+                    body: JSON.stringify({
+                        orderIds: ids,
+                        newStatus: newStatus
+                    })
+                });
+                app.showToast('Estados actualizados');
+                app.loadOrders();
+            } catch (e) { }
             app.toggleLoading(false);
         });
     },
@@ -376,7 +394,19 @@ const app = {
         });
     },
 
-    adminCreateUser: async (e) => { e.preventDefault(); const p = document.getElementById('admin-new-phone').value.trim(), pl = document.getElementById('admin-new-plan').value; app.toggleLoading(true); const np = Math.floor(1000 + Math.random() * 9000).toString(); try { await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "registerUser", data: { phone: p, password: np, plan: pl } }) }); } catch (e) { } window.open(`https://wa.me/51${p}?text=${encodeURIComponent(`🔐 Bienvenid@ (Plan ${pl})\n\n📱 User: ${p}\n🔑 Pass: *${np}*\n\nEntra: ${window.location.href}`)}`, '_blank'); document.getElementById('admin-new-phone').value = ""; app.adminLoadUsers(); app.showToast('Usuario creado con éxito'); },
+    adminCreateUser: async (e) => {
+        e.preventDefault();
+        const p = document.getElementById('admin-new-phone').value.trim(), pl = document.getElementById('admin-new-plan').value;
+        app.toggleLoading(true);
+        const np = Math.floor(1000 + Math.random() * 9000).toString();
+        try {
+            await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "registerUser", data: { phone: p, password: np, plan: pl } }) });
+        } catch (e) { }
+        window.open(`https://wa.me/51${p}?text=${encodeURIComponent(`🔐 Bienvenid@ (Plan ${pl})\n\n📱 User: ${p}\n🔑 Pass: *${np}*\n\nEntra: ${window.location.href}`)}`, '_blank');
+        document.getElementById('admin-new-phone').value = "";
+        app.adminLoadUsers();
+        app.showToast('Usuario creado con éxito');
+    },
 
     adminResend: (uid, phone) => {
         app.showModal(`¿Resetear clave para ${phone}?`, async () => {
@@ -771,8 +801,8 @@ const app = {
 
         try {
             // Anti-cache param
-            // const res = await fetch(`api/legacy/merchants/${state.merchantId}/orders?_t=${Date.now()}`);
-            const res = await fetch(`${state.apiUrl}?action=getOrders&merchantId=${state.merchantId}&_t=${Date.now()}`);
+            // const res = await fetch(`${state.apiUrl}?action=getOrders&merchantId=${state.merchantId}&_t=${Date.now()}`);
+            const res = await fetch(`api/legacy/merchants/${state.merchantId}/orders?_t=${Date.now()}`);
             const json = await res.json();
 
             // AQUI APLICAMOS EL FILTRO DE PLAN
@@ -780,7 +810,10 @@ const app = {
             const userPlan = state.user ? state.user.plan : 'Gratis';
             const isFree = userPlan === 'Gratis';
 
-            let rawOrders = json.orders || [];
+            let rawOrders = json.orders?.map(order => {
+                const dataJson = order.dataJson || {};
+                return {...dataJson, ...order};
+            }) || [];
 
             // Si es gratis, NO CARGAR NADA en allOrders, pero guardar el total para el contador
             if (isFree) {
@@ -1042,7 +1075,21 @@ const app = {
         app.showModal(`¿Eliminar ${state.selectedOrders.size} envíos?`, async () => {
             app.toggleLoading(true);
             const ids = Array.from(state.selectedOrders);
-            try { await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "deleteOrders", merchantId: state.merchantId, orderIds: ids }) }); app.showToast('Envíos eliminados'); app.loadOrders(); } catch (e) { }
+            try {
+                // await fetch(state.apiUrl, {
+                //     method: "POST",
+                //     headers: { 'Content-Type': 'application/json' },
+                //     body: JSON.stringify({ action: "deleteOrders", merchantId: state.merchantId, orderIds: ids }) });
+                await fetch(`api/legacy/merchants/${state.merchantId}/orders/delete`, {
+                    method: "PATCH",
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        orderIds: ids
+                    })
+                });
+                app.showToast('Envíos eliminados');
+                app.loadOrders();
+            } catch (e) { }
             app.toggleLoading(false);
         });
     },
