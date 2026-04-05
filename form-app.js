@@ -379,12 +379,21 @@ const app = {
         text.classList.add('hidden');
 
         try {
-            const res = await fetch(API_URL, {
+            // const res = await fetch(API_URL, {
+            //     method: "POST",
+            //     body: JSON.stringify({
+            //         action: "saveOrder",
+            //         merchantId: state.merchantId,
+            //         data: data
+            //     })
+            // });
+
+            const res = await fetch(`api/legacy/merchants/${state.merchantId}/orders`, {
+                headers: { 'Content-Type': 'application/json' },
                 method: "POST",
                 body: JSON.stringify({
-                    action: "saveOrder",
                     merchantId: state.merchantId,
-                    data: data
+                    dataJson: data
                 })
             });
 
