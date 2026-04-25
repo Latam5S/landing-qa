@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL;
+import api from './rest-client.js';
 
 const URLS = {
     districts: "lstDistritos.json",
@@ -17,10 +17,14 @@ const app = {
         state.merchantId = p.get('merchant');
         if (!state.merchantId) return app.showError();
         try {
-            const res = await fetch(`${API_URL}?action=getConfig&merchantId=${state.merchantId}`);
-            const json = await res.json();
-            if (json.data && json.data.merchantName) {
-                state.config = json.data;
+            // Se requiere un token (aunque sea anónimo) para acceder a la config.
+            // Pasamos el merchantId para que el token sepa a quién pertenece la sesión de invitado.
+            const token = await api.getAnonymousToken(state.merchantId);
+            api.setToken(token);
+
+            const json = await api.getMerchantConfig();
+            if (json.dataJson && json.dataJson.merchantName) {
+                state.config = json.dataJson;
                 app.renderClient();
                 document.getElementById('loading-overlay').classList.add('hidden');
             } else { app.showError(); }
@@ -379,27 +383,12 @@ const app = {
         text.classList.add('hidden');
 
         try {
-            // const res = await fetch(API_URL, {
-            //     method: "POST",
-            //     body: JSON.stringify({
-            //         action: "saveOrder",
-            //         merchantId: state.merchantId,
-            //         data: data
-            //     })
-            // });
-
-            const res = await fetch(`api/legacy/merchants/${state.merchantId}/orders`, {
-                headers: { 'Content-Type': 'application/json' },
-                method: "POST",
-                body: JSON.stringify({
-                    merchantId: state.merchantId,
-                    dataJson: data
-                })
-            });
-
+            // Se requiere un anonymous-token para crear pedidos sin estar logueado
+            // Pasamos useAnonymous=true para que el api client lo gestione automáticamente
+            const res = await api.createOrder(data, true);
             console.log("Order saved, response:", res);
         } catch (e) {
-            console.error("'Error saving order:", e);
+            console.error("Error saving order:", e);
             app.showToast("Ocurrió un error al guardar tu envío. Intenta nuevamente.", "error");
             btn.disabled = false;
             spinner.classList.add('hidden');

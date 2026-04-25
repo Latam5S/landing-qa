@@ -1,5 +1,4 @@
-
-const DEFAULT_API_URL = import.meta.env.VITE_API_URL;
+import api from './rest-client.js';
 
 // CONFIGURACIÓN DE LIMITES DEL PLAN (FEATURE FLAGS)
 const PLAN_FEATURES = {
@@ -26,7 +25,7 @@ const ALL_COURIERS = [
 ];
 const ALL_DAYS = ["Lun", "Mar", "Mié", "Jue", "Vie", "Sáb", "Dom"];
 const initialState = { merchantName: "", whatsapp: "", couriers: [], shippingDays: [], updateTime: "18:00", updateGap: "0" };
-const state = { user: null, merchantId: null, apiUrl: DEFAULT_API_URL, config: { ...initialState }, allOrders: [], selectedOrders: new Set(), visibleOrders: [], filterStatus: 'PENDIENTE' };
+const state = { user: null, merchantId: null, config: { ...initialState }, allOrders: [], selectedOrders: new Set(), visibleOrders: [], filterStatus: 'PENDIENTE' };
 
 // Helper para sanitizar XSS
 const escapeHtml = (unsafe) => {
@@ -257,24 +256,12 @@ const app = {
             app.toggleLoading(true);
             const ids = Array.from(state.selectedOrders);
             try {
-                // await fetch(state.apiUrl, {
-                //     method: "POST",
-                //     body: JSON.stringify({
-                //         action: "updateOrdersStatus",
-                //         merchantId: state.merchantId,
-                //         orderIds: ids,
-                //         newStatus: newStatus }) });
-                await fetch(`api/legacy/merchants/${state.merchantId}/orders/status`, {
-                    headers: { 'Content-Type': 'application/json' },
-                    method: "PATCH",
-                    body: JSON.stringify({
-                        orderIds: ids,
-                        newStatus: newStatus
-                    })
-                });
+                await api.updateOrdersStatus(ids, newStatus);
                 app.showToast('Estados actualizados');
                 app.loadOrders();
-            } catch (e) { }
+            } catch (e) {
+                app.showToast('Error al actualizar estados');
+            }
             app.toggleLoading(false);
         });
     },
@@ -300,8 +287,6 @@ const app = {
         } else if (order.clientAddress) {
             destinationInfo = `🏠 *Dirección:* ${order.clientDistrict}, ${order.clientAddress} (Ref: ${order.clientRef})`;
         }
-
-
 
         // CORRECCIÓN CLAVE: Usamos \n en lugar de %0A y emojis literales
         const message = (order.courier !== 'Retiro en tienda') ?
@@ -337,11 +322,29 @@ const app = {
         const err = document.getElementById('auth-error');
         app.toggleLoading(true);
         try {
-            const res = await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "loginUser", data: { phone: p, password: pw } }) });
-            const json = await res.json();
-            if (json.status === 'success') { app.loginSuccess(json.user); return; }
-            else { err.innerText = json.message || "Error desconocido"; err.classList.remove('hidden'); app.toggleLoading(false); return; }
-        } catch (e) { console.error(e); err.innerText = "Error de conexión con el servidor"; err.classList.remove('hidden'); app.toggleLoading(false); }
+            const data = await api.login(p, pw);
+            // El nuevo API retorna accessToken y tokenType. 
+            // Para obtener los datos del usuario (plan, etc), necesitamos su UID.
+            // Si el backend no los envía en login, los buscamos por UID si viniera en el token o respuesta.
+            // Por ahora, asumiremos que el backend envía el objeto "user" o que podemos obtenerlo.
+            if (data.accessToken) {
+                // Si el backend no envía el usuario, intentamos obtenerlo de la lista de merchants (como parche temporal si no hay /me)
+                // O mejor, el backend debería incluirlo. Asumamos que data.user existe para mantener compatibilidad
+                // o que el merchantId/uid viene en la respuesta.
+                const user = data.user || { phone: p, uid: data.uid || p }; // Fallback
+                app.loginSuccess(user);
+                return;
+            } else {
+                err.innerText = data.message || "Error al iniciar sesión";
+                err.classList.remove('hidden');
+                app.toggleLoading(false);
+            }
+        } catch (e) {
+            console.error(e);
+            err.innerText = e.detail || "Error de conexión con el servidor";
+            err.classList.remove('hidden');
+            app.toggleLoading(false);
+        }
     },
     loginSuccess: (u) => { state.user = u; SafeStorage.setItem('app_current_user', JSON.stringify(u)); app.init(); },
     logout: () => { SafeStorage.removeItem('app_current_user'); state.user = null; state.merchantId = null; window.location.reload(); },
@@ -362,20 +365,14 @@ const app = {
         lucide.createIcons();
 
         app.toggleLoading(true);
-        let u = [];
-
         try {
-            // ENVIAMOS EL TOKEN AUTOMÁTICAMENTE (Ya no pide prompt)
-            // Nota: Enviamos 'adminSecret' con el valor del token
-            const res = await fetch(`${state.apiUrl}?action=getUsers&adminSecret=${encodeURIComponent(secretToken)}`);
-            const json = await res.json();
+            const merchants = await api.getAllMerchants();
 
-            if (json.users) {
-                u = json.users;
+            if (Array.isArray(merchants)) {
                 // Renderizado de la tabla (Tu código visual original)
-                l.innerHTML = u.length ? u.map(user => `<tr class="bg-white border-b hover:bg-slate-50"><td class="px-6 py-4 font-bold text-slate-700">${escapeHtml(user.phone)}</td><td class="px-6 py-4"><span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded">${escapeHtml(user.plan || 'Gratis')}</span></td><td class="px-6 py-4 text-xs text-slate-400">${user.createdAt ? new Date(user.createdAt).toLocaleDateString() : '-'}</td><td class="px-6 py-4 text-right flex gap-2 justify-end"><button onclick="app.adminResend('${escapeHtml(user.uid)}','${escapeHtml(user.phone)}')" class="text-indigo-600 text-xs font-bold hover:bg-indigo-50 px-2 py-1 rounded">Clave</button><select onchange="app.adminUpdatePlan('${escapeHtml(user.uid)}', this.value)" class="text-xs border rounded p-1 bg-slate-50 cursor-pointer outline-none"><option value="" disabled selected>Cambiar Plan</option><option value="Gratis">Gratis</option><option value="Pro">Pro</option><option value="Empresa">Empresa</option></select></td></tr>`).join('') : '<tr><td colspan="4" class="p-4 text-center">Base de datos vacía</td></tr>';
+                l.innerHTML = merchants.length ? merchants.map(user => `<tr class="bg-white border-b hover:bg-slate-50"><td class="px-6 py-4 font-bold text-slate-700">${escapeHtml(user.phone)}</td><td class="px-6 py-4"><span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded">${escapeHtml(user.plan || 'Gratis')}</span></td><td class="px-6 py-4 text-xs text-slate-400">${user.createdAt ? new Date(user.createdAt).toLocaleDateString() : '-'}</td><td class="px-6 py-4 text-right flex gap-2 justify-end"><button onclick="app.adminResend('${escapeHtml(user.uid)}','${escapeHtml(user.phone)}')" class="text-indigo-600 text-xs font-bold hover:bg-indigo-50 px-2 py-1 rounded">Clave</button><select onchange="app.adminUpdatePlan('${escapeHtml(user.uid)}', this.value)" class="text-xs border rounded p-1 bg-slate-50 cursor-pointer outline-none"><option value="" disabled selected>Cambiar Plan</option><option value="Gratis">Gratis</option><option value="Pro">Pro</option><option value="Empresa">Empresa</option></select></td></tr>`).join('') : '<tr><td colspan="4" class="p-4 text-center">Base de datos vacía</td></tr>';
             } else {
-                l.innerHTML = `<tr><td colspan="4" class="p-4 text-center text-red-500 font-bold">⛔ Acceso Denegado (Token inválido)</td></tr>`;
+                l.innerHTML = `<tr><td colspan="4" class="p-4 text-center text-red-500 font-bold">⛔ Acceso Denegado o Error</td></tr>`;
             }
         } catch (e) {
             console.error(e);
@@ -400,8 +397,18 @@ const app = {
         app.toggleLoading(true);
         const np = Math.floor(1000 + Math.random() * 9000).toString();
         try {
-            await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "registerUser", data: { phone: p, password: np, plan: pl } }) });
-        } catch (e) { }
+            // Nota: El backend REST espera UserBase con passwordHash
+            const userData = {
+                uid: Math.random().toString(36).substring(2, 14), // UID temporal o generado
+                phone: p,
+                passwordHash: np,
+                plan: pl,
+                createdAtDate: new Date().toISOString(),
+                trialEndsAt: new Date().toISOString(),
+                hasUsedTrial: false
+            };
+            await api.createMerchant(userData);
+        } catch (e) { console.error("Error creating merchant", e); }
         window.open(`https://wa.me/51${p}?text=${encodeURIComponent(`🔐 Bienvenid@ (Plan ${pl})\n\n📱 User: ${p}\n🔑 Pass: *${np}*\n\nEntra: ${window.location.href}`)}`, '_blank');
         document.getElementById('admin-new-phone').value = "";
         app.adminLoadUsers();
@@ -459,9 +466,9 @@ const app = {
         SafeStorage.setItem(`config_${state.user.uid}`, JSON.stringify(state.config));
 
         try {
-            await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "saveConfig", merchantId: state.user.uid, data: state.config }) });
+            await api.saveMerchantConfig(state.config);
         } catch (e) {
-            console.error("Error backend", e);
+            console.error("Error saving config", e);
         }
 
         setTimeout(() => {
@@ -525,9 +532,8 @@ const app = {
         // 1. Cargar Configuración
         state.config = { ...initialState };
         try {
-            const res = await fetch(`${state.apiUrl}?action=getConfig&merchantId=${state.merchantId}`);
-            const json = await res.json();
-            if (json.data) state.config = json.data;
+            const json = await api.getMerchantConfig();
+            if (json.dataJson) state.config = json.dataJson;
         } catch (e) {
             const local = SafeStorage.getItem(`config_${state.merchantId}`);
             if (local) state.config = JSON.parse(local);
@@ -536,16 +542,15 @@ const app = {
         // 2. Verificar estado del plan
         if (state.user && state.merchantId) {
             try {
-                const resStatus = await fetch(`${state.apiUrl}?action=getUserStatus&merchantId=${state.merchantId}`);
-                const jsonStatus = await resStatus.json();
+                const jsonStatus = await api.getMerchantStatus();
 
-                if (jsonStatus.status === 'success' && jsonStatus.plan !== state.user.plan) {
+                if (jsonStatus && jsonStatus.plan !== state.user.plan) {
                     state.user.plan = jsonStatus.plan;
                     if (jsonStatus.plan === 'Gratis') delete state.user.trialEndsAt;
                     SafeStorage.setItem('app_current_user', JSON.stringify(state.user));
                     app.showToast('Tu plan se ha actualizado');
                 }
-            } catch (e) { console.log("Offline check"); }
+            } catch (e) { console.log("Offline or API check failed", e); }
 
             document.querySelectorAll('.user-phone-display').forEach(el => el.innerText = state.user.phone);
             if (state.user.plan) document.querySelectorAll('.user-plan-display').forEach(el => el.innerText = `PLAN ${state.user.plan.toUpperCase()}`);
@@ -804,10 +809,7 @@ const app = {
         lucide.createIcons();
 
         try {
-            // Anti-cache param
-            // const res = await fetch(`${state.apiUrl}?action=getOrders&merchantId=${state.merchantId}&_t=${Date.now()}`);
-            const res = await fetch(`api/legacy/merchants/${state.merchantId}/orders?_t=${Date.now()}`);
-            const json = await res.json();
+            const json = await api.getOrders();
 
             // AQUI APLICAMOS EL FILTRO DE PLAN
             // Revisar plan local (incluyendo 'Pro (Prueba)')
@@ -816,7 +818,7 @@ const app = {
 
             let rawOrders = json.orders?.map(order => {
                 const dataJson = order.dataJson || {};
-                return {...dataJson, ...order};
+                return { ...dataJson, ...order };
             }) || [];
 
             // Si es gratis, NO CARGAR NADA en allOrders, pero guardar el total para el contador
@@ -1080,20 +1082,12 @@ const app = {
             app.toggleLoading(true);
             const ids = Array.from(state.selectedOrders);
             try {
-                // await fetch(state.apiUrl, {
-                //     method: "POST",
-                //     headers: { 'Content-Type': 'application/json' },
-                //     body: JSON.stringify({ action: "deleteOrders", merchantId: state.merchantId, orderIds: ids }) });
-                await fetch(`api/legacy/merchants/${state.merchantId}/orders/delete`, {
-                    method: "PATCH",
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        orderIds: ids
-                    })
-                });
+                await api.deleteOrders(ids);
                 app.showToast('Envíos eliminados');
                 app.loadOrders();
-            } catch (e) { }
+            } catch (e) {
+                app.showToast('Error al eliminar envíos');
+            }
             app.toggleLoading(false);
         });
     },
