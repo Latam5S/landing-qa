@@ -323,15 +323,14 @@ const app = {
         app.toggleLoading(true);
         try {
             const data = await api.login(p, pw);
-            // El nuevo API retorna accessToken y tokenType. 
-            // Para obtener los datos del usuario (plan, etc), necesitamos su UID.
-            // Si el backend no los envía en login, los buscamos por UID si viniera en el token o respuesta.
-            // Por ahora, asumiremos que el backend envía el objeto "user" o que podemos obtenerlo.
             if (data.accessToken) {
-                // Si el backend no envía el usuario, intentamos obtenerlo de la lista de merchants (como parche temporal si no hay /me)
-                // O mejor, el backend debería incluirlo. Asumamos que data.user existe para mantener compatibilidad
-                // o que el merchantId/uid viene en la respuesta.
-                const user = data.user || { phone: p, uid: data.uid || p }; // Fallback
+                const payload = api.getTokenPayload();
+                const user = {
+                    uid: payload.sub,
+                    phone: payload.phone || p,
+                    isAdmin: payload.isAdmin || false,
+                    plan: payload.plan || 'Gratis'
+                };
                 app.loginSuccess(user);
                 return;
             } else {
@@ -341,13 +340,26 @@ const app = {
             }
         } catch (e) {
             console.error(e);
-            err.innerText = e.detail || "Error de conexión con el servidor";
+            err.innerText = (e.detail?.trim() === 'Incorrect username or password') ?
+                "Usuario o contraseña incorrectos" : "Error de conexión con el servidor";
             err.classList.remove('hidden');
             app.toggleLoading(false);
         }
     },
-    loginSuccess: (u) => { state.user = u; SafeStorage.setItem('app_current_user', JSON.stringify(u)); app.init(); },
-    logout: () => { SafeStorage.removeItem('app_current_user'); state.user = null; state.merchantId = null; window.location.reload(); },
+
+    loginSuccess: (u) => {
+        state.user = u;
+        SafeStorage.setItem('app_current_user', JSON.stringify(u));
+        app.init();
+    },
+
+    logout: () => {
+        api.clearToken();
+        SafeStorage.removeItem('app_current_user');
+        state.user = null;
+        state.merchantId = null;
+        window.location.reload();
+    },
 
     adminLoadUsers: async () => {
         const l = document.getElementById('admin-users-list');
@@ -488,10 +500,13 @@ const app = {
         app.showModal('¿Estás seguro de cambiar tu contraseña actual?', async () => {
             app.toggleLoading(true);
             try {
-                await fetch(state.apiUrl, { method: "POST", body: JSON.stringify({ action: "changePassword", merchantId: state.user.uid, newPassword: newPass }) });
+                await api.updatePassword(newPass);
                 document.getElementById('inp-new-pass').value = "";
                 app.showToast('Contraseña actualizada');
-            } catch (e) { }
+            } catch (e) {
+                console.error("Error updating password", e);
+                app.showToast('Error al actualizar contraseña');
+            }
             app.toggleLoading(false);
         });
     },
@@ -1322,6 +1337,11 @@ const app = {
     init: () => {
         // Ya no buscamos merchant en URL
         const u = JSON.parse(SafeStorage.getItem('app_current_user'));
+
+        if (u && !api.isAuthenticated()) {
+            app.logout();
+            return;
+        }
 
         // Ocultamos todas las vistas por defecto
         document.querySelectorAll('[id^="view-"]').forEach(el => el.classList.add('hidden'));
