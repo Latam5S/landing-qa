@@ -1,20 +1,28 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || '/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL || "/api";
 
 const SafeStorage = {
     setItem(key, value) {
-        try { localStorage.setItem(key, value); } catch (e) { }
+        try {
+            localStorage.setItem(key, value);
+        } catch (e) { }
     },
     getItem(key) {
-        try { return localStorage.getItem(key); } catch (e) { return null; }
+        try {
+            return localStorage.getItem(key);
+        } catch (e) {
+            return null;
+        }
     },
     removeItem(key) {
-        try { localStorage.removeItem(key); } catch (e) { }
-    }
+        try {
+            localStorage.removeItem(key);
+        } catch (e) { }
+    },
 };
 
 class APIClient {
     constructor() {
-        this.tokenKey = 'latam5s_auth_token';
+        this.tokenKey = "latam5s_auth_token";
     }
 
     setToken(token) {
@@ -33,11 +41,16 @@ class APIClient {
         const token = this.getToken();
         if (!token) return null;
         try {
-            const base64Url = token.split('.')[1];
-            const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
-            const jsonPayload = decodeURIComponent(atob(base64).split('').map(function (c) {
-                return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-            }).join(''));
+            const base64Url = token.split(".")[1];
+            const base64 = base64Url.replace(/-/g, "+").replace(/_/g, "/");
+            const jsonPayload = decodeURIComponent(
+                atob(base64)
+                    .split("")
+                    .map(function (c) {
+                        return "%" + ("00" + c.charCodeAt(0).toString(16)).slice(-2);
+                    })
+                    .join(""),
+            );
             return JSON.parse(jsonPayload);
         } catch (e) {
             return null;
@@ -57,40 +70,50 @@ class APIClient {
         if (!payload) return true;
         if (!payload.exp) return false;
         const now = Math.floor(Date.now() / 1000);
-        return (payload.exp - now) < (thresholdMinutes * 60);
+        return payload.exp - now < thresholdMinutes * 60;
     }
 
     async request(path, options = {}) {
         const url = `${API_BASE_URL}${path}`;
         const headers = {
-            'Content-Type': 'application/json',
+            "Content-Type": "application/json",
             ...options.headers,
         };
 
         const token = this.getToken();
         if (token && !options.noAuth) {
-            headers['Authorization'] = `Bearer ${token}`;
+            headers["Authorization"] = `Bearer ${token}`;
         }
 
-        const response = await fetch(url, {
-            ...options,
-            headers,
-        });
+        try {
+            const response = await fetch(url, {
+                signal: AbortSignal.timeout(30000),
+                ...options,
+                headers,
+            });
 
-        if (!response.ok) {
-            const error = await response.json().catch(() => ({ detail: 'Unknown error' }));
-            throw { status: response.status, ...error };
+            if (!response.ok) {
+                const error = await response
+                    .json()
+                    .catch(() => ({ detail: "Unknown error" }));
+                throw { status: response.status, ...error };
+            }
+
+            return response.json();
+        } catch (error) {
+            if (error.name === "TimeoutError") {
+                throw { detail: "Request timed out after 30 seconds" };
+            }
+            throw error;
         }
-
-        return response.json();
     }
 
     // --- Auth ---
     async login(phone, password) {
-        const data = await this.request('/legacy/auth/login', {
-            method: 'POST',
+        const data = await this.request("/legacy/auth/login", {
+            method: "POST",
             body: JSON.stringify({ phone, password }),
-            noAuth: true
+            noAuth: true,
         });
         if (data.accessToken) {
             this.setToken(data.accessToken);
@@ -99,51 +122,51 @@ class APIClient {
     }
 
     async getAnonymousToken(merchantId) {
-        let path = '/legacy/auth/anonymous-token';
+        let path = "/legacy/auth/anonymous-token";
         if (merchantId) path += `?merchantId=${encodeURIComponent(merchantId)}`;
         const data = await this.request(path, {
-            method: 'POST',
-            noAuth: true
+            method: "POST",
+            noAuth: true,
         });
         return data.accessToken;
     }
 
     // --- Merchants & Config ---
     async getMerchantConfig() {
-        return this.request('/legacy/config');
+        return this.request("/legacy/config");
     }
 
     async saveMerchantConfig(configData, lastUpdated = new Date().toISOString()) {
-        return this.request('/legacy/config', {
-            method: 'POST',
+        return this.request("/legacy/config", {
+            method: configData.isNewConfig ? "POST" : "PUT",
             body: JSON.stringify({
                 dataJson: configData,
-                lastUpdated: lastUpdated
-            })
+                lastUpdated: lastUpdated,
+            }),
         });
     }
 
     async getMerchantStatus() {
-        return this.request('/legacy/merchant');
+        return this.request("/legacy/merchant");
     }
 
     async updatePassword(newPassword) {
-        return this.request('/legacy/merchant/password', {
-            method: 'PATCH',
-            body: JSON.stringify({ newPassword })
+        return this.request("/legacy/merchant/password", {
+            method: "PATCH",
+            body: JSON.stringify({ newPassword }),
         });
     }
 
     async updateUserPlan(plan) {
-        return this.request('/legacy/merchant/userPlan', {
-            method: 'PATCH',
-            body: JSON.stringify({ plan })
+        return this.request("/legacy/merchant/userPlan", {
+            method: "PATCH",
+            body: JSON.stringify({ plan }),
         });
     }
 
     // --- Orders ---
     async getOrders() {
-        return this.request('/legacy/orders');
+        return this.request("/legacy/orders");
     }
 
     async getOrder(orderId) {
@@ -152,44 +175,44 @@ class APIClient {
 
     async createOrder(orderData, useAnonymous = false) {
         const options = {
-            method: 'POST',
+            method: "POST",
             body: JSON.stringify({
-                dataJson: orderData
-            })
+                dataJson: orderData,
+            }),
         };
 
         if (useAnonymous) {
             // In anonymous mode, we assume the token is already set or we fetch a new one.
             // If orderData contains merchantId or if we have it in state, we could use it.
-            return this.request('/legacy/orders', { ...options, noAuth: false }); 
+            return this.request("/legacy/orders", { ...options, noAuth: false });
         }
 
-        return this.request('/legacy/orders', options);
+        return this.request("/legacy/orders", options);
     }
 
     async updateOrdersStatus(orderIds, newStatus) {
-        return this.request('/legacy/orders/status', {
-            method: 'PATCH',
-            body: JSON.stringify({ orderIds, newStatus })
+        return this.request("/legacy/orders/status", {
+            method: "PATCH",
+            body: JSON.stringify({ orderIds, newStatus }),
         });
     }
 
     async deleteOrders(orderIds) {
-        return this.request('/legacy/orders/delete', {
-            method: 'PATCH',
-            body: JSON.stringify({ orderIds })
+        return this.request("/legacy/orders/delete", {
+            method: "PATCH",
+            body: JSON.stringify({ orderIds }),
         });
     }
 
     // --- Admin ---
     async getAllMerchants() {
-        return this.request('/legacy/merchant/all');
+        return this.request("/legacy/merchant/all");
     }
 
     async createMerchant(merchantData) {
-        return this.request('/legacy/merchant', {
-            method: 'POST',
-            body: JSON.stringify(merchantData)
+        return this.request("/legacy/merchant", {
+            method: "POST",
+            body: JSON.stringify(merchantData),
         });
     }
 }
