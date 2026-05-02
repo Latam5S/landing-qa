@@ -272,18 +272,11 @@ const app = {
     activateTrial: async () => {
         app.toggleLoading(true);
         try {
-            const res = await fetch(state.apiUrl, {
-                method: "POST",
-                body: JSON.stringify({
-                    action: "startTrial",
-                    merchantId: state.user.uid,
-                }),
-            });
-            const json = await res.json();
+            const json = await api.startTrial();
 
             if (json.status === "success") {
                 // 1. Actualizar Estado Local Inmediatamente (Sin preguntar al servidor)
-                state.user.plan = "Pro (Prueba)";
+                state.user.plan = json.plan;
                 SafeStorage.setItem("app_current_user", JSON.stringify(state.user));
 
                 // 2. Actualizar Visualmente el Badge del Plan (Sidebar)

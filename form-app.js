@@ -59,11 +59,8 @@ const app = {
     state.merchantId = p.get("merchant");
     if (!state.merchantId) return app.showError();
     try {
-      // Se requiere un token (aunque sea anónimo) para acceder a la config.
-      // Pasamos el merchantId para que el token sepa a quién pertenece la sesión de invitado.
-      const token = await api.getAnonymousToken(state.merchantId);
+      const token = await api.getGuestToken(state.merchantId);
       api.setToken(token);
-
       const json = await api.getMerchantConfig();
       if (json.dataJson && json.dataJson.merchantName) {
         state.config = json.dataJson;
@@ -445,15 +442,15 @@ const app = {
     // CAMBIO AQUÍ: Usamos onmousedown en lugar de onclick
     c.innerHTML = m.length
       ? m
-          .map(
-            (d) => `
+        .map(
+          (d) => `
                     <div onmousedown="app.selectDistrict('${d.replace(/'/g, "\\'")}')" 
                          class="p-3 cursor-pointer hover:bg-gray-50 border-b border-gray-100 last:border-0">
                         <p class="font-bold text-brand_text text-sm">${d}</p>
                     </div>
                 `,
-          )
-          .join("")
+        )
+        .join("")
       : '<div class="p-3 text-gray-400 text-sm text-center">Sin resultados</div>';
   },
 
