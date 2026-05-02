@@ -121,9 +121,8 @@ class APIClient {
         return data;
     }
 
-    async getAnonymousToken(merchantId) {
-        let path = "/legacy/auth/anonymous-token";
-        if (merchantId) path += `?merchantId=${encodeURIComponent(merchantId)}`;
+    async getGuestToken(merchantId) {
+        const path = `/legacy/auth/guest/${merchantId}`;
         const data = await this.request(path, {
             method: "POST",
             noAuth: true,
@@ -161,6 +160,12 @@ class APIClient {
         return this.request("/legacy/merchant/userPlan", {
             method: "PATCH",
             body: JSON.stringify({ plan }),
+        });
+    }
+
+    async startTrial() {
+        return this.request("/legacy/merchant/trial", {
+            method: "POST",
         });
     }
 
