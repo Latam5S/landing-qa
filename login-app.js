@@ -435,13 +435,10 @@ const app = {
 
     adminLoadUsers: async () => {
         const l = document.getElementById("admin-users-list");
-
         // Verificamos si tenemos el token guardado en el estado del usuario
         // state.user.token viene del cambio que hicimos en loginUser en el backend
-        const secretToken =
-            state.user && state.user.token ? state.user.token : null;
-
-        if (!secretToken) {
+        const plan = state?.user?.plan;
+        if (plan !== "Admin") {
             l.innerHTML =
                 '<tr><td colspan="4" class="p-4 text-center text-red-400">⛔ Error de sesión: Relogueate como Admin</td></tr>';
             return;
@@ -450,7 +447,6 @@ const app = {
         l.innerHTML =
             '<tr><td colspan="4" class="p-4 text-center text-slate-400"><i data-lucide="shield-check" class="inline w-4 h-4 mr-1"></i> Autorizando...</td></tr>';
         lucide.createIcons();
-
         app.toggleLoading(true);
         try {
             const merchants = await api.getAllMerchants();
@@ -515,6 +511,9 @@ const app = {
             await api.createMerchant(userData);
         } catch (e) {
             console.error("Error creating merchant", e);
+            app.toggleLoading(false);
+            app.showToast("Error al crear usuario");
+            return;
         }
         window.open(
             `https://wa.me/51${p}?text=${encodeURIComponent(`🔐 Bienvenid@ (Plan ${pl})\n\n📱 User: ${p}\n🔑 Pass: *${np}*\n\nEntra: ${window.location.href}`)}`,
