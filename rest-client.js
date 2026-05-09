@@ -220,6 +220,20 @@ class APIClient {
             body: JSON.stringify(merchantData),
         });
     }
+
+    async adminUpdatePassword(uid, newPassword) {
+        return this.request(`/legacy/merchant/${uid}/password`, {
+            method: "PATCH",
+            body: JSON.stringify({ newPassword }),
+        });
+    }
+
+    async adminUpdateUserPlan(uid, plan) {
+        return this.request(`/legacy/merchant/${uid}/plan`, {
+            method: "PATCH",
+            body: JSON.stringify({ plan }),
+        });
+    }
 }
 
 export const api = new APIClient();

@@ -457,7 +457,7 @@ const app = {
                     ? merchants
                         .map(
                             (user) =>
-                                `<tr class="bg-white border-b hover:bg-slate-50"><td class="px-6 py-4 font-bold text-slate-700">${escapeHtml(user.phone)}</td><td class="px-6 py-4"><span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded">${escapeHtml(user.plan || "Gratis")}</span></td><td class="px-6 py-4 text-xs text-slate-400">${user.createdAt ? new Date(user.createdAt).toLocaleDateString() : "-"}</td><td class="px-6 py-4 text-right flex gap-2 justify-end"><button onclick="app.adminResend('${escapeHtml(user.uid)}','${escapeHtml(user.phone)}')" class="text-indigo-600 text-xs font-bold hover:bg-indigo-50 px-2 py-1 rounded">Clave</button><select onchange="app.adminUpdatePlan('${escapeHtml(user.uid)}', this.value)" class="text-xs border rounded p-1 bg-slate-50 cursor-pointer outline-none"><option value="" disabled selected>Cambiar Plan</option><option value="Gratis">Gratis</option><option value="Pro">Pro</option><option value="Empresa">Empresa</option></select></td></tr>`,
+                                `<tr class="bg-white border-b hover:bg-slate-50"><td class="px-6 py-4 font-bold text-slate-700">${escapeHtml(user.phone)}</td><td class="px-6 py-4"><span class="bg-indigo-100 text-indigo-800 text-xs font-bold px-2 py-1 rounded">${escapeHtml(user.plan || "Gratis")}</span></td><td class="px-6 py-4 text-xs text-slate-400">${user.createdAt ? new Date(user.createdAtDate).toLocaleDateString() : "-"}</td><td class="px-6 py-4 text-right flex gap-2 justify-end"><button onclick="app.adminResend('${escapeHtml(user.uid)}','${escapeHtml(user.phone)}')" class="text-indigo-600 text-xs font-bold hover:bg-indigo-50 px-2 py-1 rounded">Clave</button><select onchange="app.adminUpdatePlan('${escapeHtml(user.uid)}', this.value)" class="text-xs border rounded p-1 bg-slate-50 cursor-pointer outline-none"><option value="" disabled selected>Cambiar Plan</option><option value="Gratis">Gratis</option><option value="Pro">Pro</option><option value="Empresa">Empresa</option></select></td></tr>`,
                         )
                         .join("")
                     : '<tr><td colspan="4" class="p-4 text-center">Base de datos vacía</td></tr>';
@@ -477,15 +477,10 @@ const app = {
         app.showModal(`¿Confirmas cambiar el plan a ${newPlan}?`, async () => {
             app.toggleLoading(true);
             try {
-                await fetch(state.apiUrl, {
-                    method: "POST",
-                    body: JSON.stringify({
-                        action: "updateUserPlan",
-                        merchantId: uid,
-                        newPlan: newPlan,
-                    }),
-                });
-            } catch (e) { }
+                await api.adminUpdateUserPlan(uid, newPlan);
+            } catch (e) {
+                console.error("Error updating plan", e);
+            }
             app.adminLoadUsers();
             app.showToast("Plan actualizado");
         });
@@ -500,7 +495,7 @@ const app = {
         try {
             // Nota: El backend REST espera UserBase con passwordHash
             const userData = {
-                uid: Math.random().toString(36).substring(2, 14), // UID temporal o generado
+                uid: Math.random().toString(36).substring(2, 13), // UID temporal o generado
                 phone: p,
                 passwordHash: np,
                 plan: pl,
@@ -529,15 +524,10 @@ const app = {
             app.toggleLoading(true);
             const np = Math.floor(1000 + Math.random() * 9000).toString();
             try {
-                await fetch(state.apiUrl, {
-                    method: "POST",
-                    body: JSON.stringify({
-                        action: "changePassword",
-                        merchantId: uid,
-                        newPassword: np,
-                    }),
-                });
-            } catch (e) { }
+                await api.adminUpdatePassword(uid, np);
+            } catch (e) {
+                console.error("Error resetting password", e);
+            }
             window.open(
                 `https://wa.me/51${phone}?text=${encodeURIComponent(`🔐 *Recuperación de clave:*\n\n📱Usuario: ${phone}\n🔑Nueva Clave: *${np}*`)}`,
                 "_blank",
@@ -794,17 +784,17 @@ const app = {
                 return {
                     "DESTINATARIO (DOC)": x.clientDni || "",
                     "TELF. DESTINATARIO": x.clientPhone || "",
-                    "CONTACTO (DOC)": "",
-                    "TELF. CONTACTO": "",
-                    "NRO GRR": "",
-                    ORIGEN: "",
-                    DESTINO: destino,
-                    MERCADERIA: "",
-                    ALTO: "",
-                    ANCHO: "",
-                    LARGO: "",
-                    PESO: "",
-                    CANTIDAD: "1",
+                    "CONTACTO (DOC)": null,
+                    "TELF. CONTACTO": null,
+                    "NRO GRR": null,
+                    "ORIGEN": null,
+                    "DESTINO": destino,
+                    "MERCADERIA": null,
+                    "ALTO": null,
+                    "ANCHO": null,
+                    "LARGO": null,
+                    "PESO": null,
+                    "CANTIDAD": "1",
                 };
             });
             fileName = `CargaMasiva_Shalom_${new Date().toISOString().slice(0, 10)}.xlsx`;
