@@ -30,8 +30,8 @@ jobs:
       - name: Build
         run: bun run build
         env:
-          VITE_APP_TITLE: ${{env.VITE_APP_TITLE}}
-          VITE_API_URL: ${{env.VITE_API_URL}}
+          VITE_APP_TITLE: ${{vars.VITE_APP_TITLE}}
+          VITE_API_URL: ${{vars.VITE_API_URL}}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
