@@ -495,7 +495,6 @@ const app = {
         try {
             // Nota: El backend REST espera UserBase con passwordHash
             const userData = {
-                uid: Math.random().toString(36).substring(2, 13), // UID temporal o generado
                 phone: p,
                 passwordHash: np,
                 plan: pl,
