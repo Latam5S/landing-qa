@@ -343,11 +343,16 @@ const app = {
     const terms = cleanQ.split(" ").filter((t) => t.length > 0);
 
     const m = (state.externalData.agencies || [])
-      .filter((a) => {
-        const fullText = app.normalizeText(`${a.Agencia} ${a.Direccion}`);
-        return terms.every((term) => fullText.includes(term));
-      })
-      .slice(0, 100);
+            .filter(a => {
+                const fullText = app.normalizeText(`${a.Agencia} ${a.Direccion}`);
+                return terms.every(term => fullText.includes(term));
+            })
+            .sort((a, b) => {
+                const aName = app.normalizeText(a.Agencia);
+                const bName = app.normalizeText(b.Agencia);
+                return terms.some(t => bName.startsWith(t)) - terms.some(t => aName.startsWith(t));
+            })
+            .slice(0, 100);
 
     if (m.length) {
       c.innerHTML = m
@@ -436,8 +441,13 @@ const app = {
 
     const cleanQ = app.normalizeText(q);
     const m = (state.externalData.districts || [])
-      .filter((d) => app.normalizeText(d).includes(cleanQ))
-      .slice(0, 50);
+        .filter(d => app.normalizeText(d).includes(cleanQ))
+        .sort((a, b) => {
+            const aNorm = app.normalizeText(a);
+            const bNorm = app.normalizeText(b);
+            return bNorm.startsWith(cleanQ) - aNorm.startsWith(cleanQ);
+        })
+        .slice(0, 50);
 
     // CAMBIO AQUÍ: Usamos onmousedown en lugar de onclick
     c.innerHTML = m.length

@@ -77,6 +77,12 @@ const escapeHtml = (unsafe) => {
         .replace(/'/g, "&#039;");
 };
 
+const multiAddressCouriers = [
+    "Shalom",
+    "Olva Courier",
+    "Marvisur",
+];
+
 const app = {
     // --- NUEVA FUNCIÓN: Formateo estricto de WhatsApp ---
     formatWhatsapp: (el) => {
@@ -302,7 +308,7 @@ const app = {
                 );
             }
         } catch (e) {
-            app.showToast("Error de conexión");
+            app.showToast("Error de conexión", "error");
         }
         app.toggleLoading(false);
     },
@@ -319,7 +325,7 @@ const app = {
                     app.showToast("Estados actualizados");
                     app.loadOrders();
                 } catch (e) {
-                    app.showToast("Error al actualizar estados");
+                    app.showToast("Error al actualizar estados", "error");
                 }
                 app.toggleLoading(false);
             },
@@ -331,7 +337,7 @@ const app = {
         const order = state.allOrders.find(
             (o) => String(o.orderId || o.createdAt) === String(orderId),
         );
-        if (!order) return app.showToast("Error: No se encontró el pedido.");
+        if (!order) return app.showToast("Error: No se encontró el pedido.", "error");
 
         const storeName = state.config.merchantName || "Nuestra Tienda";
         let phone = (order.clientPhone || "").replace(/[^0-9]/g, "");
@@ -341,7 +347,7 @@ const app = {
 
         // Validación básica de número
         if (phone.length < 9)
-            return app.showToast("El número de teléfono no es válido.");
+            return app.showToast("El número de teléfono no es válido.", "error");
 
         const statusEmoji = order.status === "ENVIADO" ? "✅" : "📦";
         const statusText = order.status === "ENVIADO" ? "Enviado" : "Programado";
@@ -372,9 +378,10 @@ const app = {
         window.open(url, "_blank");
     },
 
-    showToast: (msg) => {
-        const el = document.getElementById("toast");
-        document.getElementById("toast-msg").innerText = msg;
+    showToast: (msg, type = "") => {
+        const prefix = type ? `${type}-` : "";
+        const el = document.getElementById(`${prefix}toast`);
+        document.getElementById(`${prefix}toast-msg`).innerText = msg;
         el.classList.remove("opacity-0", "-translate-y-20");
         setTimeout(() => el.classList.add("opacity-0", "-translate-y-20"), 3000);
     },
@@ -478,11 +485,13 @@ const app = {
             app.toggleLoading(true);
             try {
                 await api.adminUpdateUserPlan(uid, newPlan);
+                app.adminLoadUsers();
+                app.showToast("Plan actualizado");
             } catch (e) {
                 console.error("Error updating plan", e);
+                app.showToast("Error al actualizar el plan", "error");
             }
-            app.adminLoadUsers();
-            app.showToast("Plan actualizado");
+            app.toggleLoading(false);
         });
     },
 
@@ -506,7 +515,7 @@ const app = {
         } catch (e) {
             console.error("Error creating merchant", e);
             app.toggleLoading(false);
-            app.showToast("Error al crear usuario");
+            app.showToast("Error al crear usuario", "error");
             return;
         }
         window.open(
@@ -524,15 +533,16 @@ const app = {
             const np = Math.floor(1000 + Math.random() * 9000).toString();
             try {
                 await api.adminUpdatePassword(uid, np);
+                window.open(
+                    `https://wa.me/51${phone}?text=${encodeURIComponent(`🔐 *Recuperación de clave:*\n\n📱Usuario: ${phone}\n🔑Nueva Clave: *${np}*`)}`,
+                    "_blank",
+                );
+                app.showToast("Contraseña restablecida");
             } catch (e) {
                 console.error("Error resetting password", e);
+                app.showToast("Error al restablecer la contraseña", "error");
             }
-            window.open(
-                `https://wa.me/51${phone}?text=${encodeURIComponent(`🔐 *Recuperación de clave:*\n\n📱Usuario: ${phone}\n🔑Nueva Clave: *${np}*`)}`,
-                "_blank",
-            );
             app.toggleLoading(false);
-            app.showToast("Contraseña restablecida");
         });
     },
 
@@ -585,19 +595,25 @@ const app = {
 
         try {
             await api.saveMerchantConfig(state.config);
+
+            setTimeout(() => {
+                app.toggleLoading(false);
+                app.showToast("Configuración guardada y optimizada");
+                app.checkConfigStatus();
+
+                btn.disabled = false;
+                btn.innerHTML = '<i data-lucide="save" class="w-4 h-4"></i> Guardar';
+                lucide.createIcons();
+            }, 500);
         } catch (e) {
             console.error("Error saving config", e);
-        }
-
-        setTimeout(() => {
             app.toggleLoading(false);
-            app.showToast("Configuración guardada y optimizada");
-            app.checkConfigStatus();
+            app.showToast("Error al guardar la configuración", "error");
 
             btn.disabled = false;
             btn.innerHTML = '<i data-lucide="save" class="w-4 h-4"></i> Guardar';
             lucide.createIcons();
-        }, 500);
+        }
     },
 
     changePassword: async () => {
@@ -613,7 +629,7 @@ const app = {
                     app.showToast("Contraseña actualizada");
                 } catch (e) {
                     console.error("Error updating password", e);
-                    app.showToast("Error al actualizar contraseña");
+                    app.showToast("Error al actualizar contraseña", "error");
                 }
                 app.toggleLoading(false);
             },
@@ -667,6 +683,7 @@ const app = {
         try {
             const json = await api.getMerchantConfig();
             if (json.dataJson) state.config = json.dataJson;
+            delete state.config.isNewConfig; // Limpiamos la bandera si existe
         } catch (e) {
             const local = SafeStorage.getItem(`config_${state.merchantId}`);
             const config = local ? JSON.parse(local) : state.config;
@@ -1001,6 +1018,7 @@ const app = {
             if (hiddenCountEl) hiddenCountEl.innerText = state.totalHiddenCount;
         } catch (e) {
             state.allOrders = [];
+            app.showToast("Error al cargar los pedidos", "error");
         }
         app.renderOrders();
     },
@@ -1290,7 +1308,7 @@ const app = {
                     app.showToast("Envíos eliminados");
                     app.loadOrders();
                 } catch (e) {
-                    app.showToast("Error al eliminar envíos");
+                    app.showToast("Error al eliminar envíos", "error");
                 }
                 app.toggleLoading(false);
             },
@@ -1424,9 +1442,24 @@ const app = {
         // Esto evita que el navegador móvil parta las tarjetas entre páginas.
         area.innerHTML = `
                     <div style="width: 100%; font-size: 0; /* Elimina espacios fantasma */">
-                        ${list
-                .map(
-                    (x) => `
+                        ${list.map(x => {
+                            const agencyParts = x.clientAgency ? x.clientAgency.split(' | ') : [];
+                            const location = agencyParts[0] || '';
+                            const address = agencyParts.slice(1).join(' | ');
+
+                            let destLine1 = location;
+                            let destLine2 = '';
+                            console.log("coureier -", x.courier);
+                            if (x.clientAgency && multiAddressCouriers.includes(x.courier)) { //}   (x.courier || '') === 'Shalom') {
+                                const parts = location.split(' / ').map(s => s.trim()).filter(Boolean);
+                                const last = parts.pop() || '';
+                                destLine1 = parts.join(' / ');
+                                destLine2 = last;
+                            }
+
+                            const isStore = (x.courier || '') === 'Retiro en tienda';
+
+                            return `
                             <div style="
                                 display: inline-block; 
                                 width: ${cardWidth};
@@ -1445,40 +1478,42 @@ const app = {
                                 background: white; 
                                 font-size: ${12 * m}px;
                             ">
-                                <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 8px;">
-                                    <div style="font-size: ${9 * m}px; color: #555; text-transform: uppercase; letter-spacing: 0.5px;">Remitente</div>
-                                    <div style="font-weight: bold; font-size: ${11 * m}px; color: #000;">${escapeHtml(shopName).substring(0, 20)}</div>
+                                <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #777; padding-bottom: 8px; margin-bottom: 8px;">
+                                    <div style="font-size: ${8 * m}px; color: #555; text-transform: uppercase; letter-spacing: 0.5px;">Remitente</div>
+                                    <div style="font-weight: bold; font-size: ${10 * m}px; color: #000;">${escapeHtml(shopName).substring(0, 20)}</div>
                                 </div>
                                 
                                 <div style="margin-bottom: 8px;">
-                                    <p style="margin: 0; font-size: ${8 * m}px; color: #666; font-weight: bold; text-transform: uppercase;">PARA:</p>
-                                    <h2 style="margin: 2px 0; font-size: ${14 * m}px; font-weight: 900; color: #000; line-height: 1.1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHtml(x.clientName).toUpperCase()}</h2>
-                                    <p style="margin: 0; font-size: ${11 * m}px; color: #000; font-family: monospace; font-weight: bold;">${escapeHtml(x.clientPhone)}</p>
+                                    <p style="margin: 0; font-size: ${7 * m}px; color: #666; font-weight: bold; text-transform: uppercase;">DESTINATARIO:</p>
+                                    <h2 style="margin: 2px 0; font-size: ${12 * m}px; font-weight: 900; color: #000; line-height: 1.1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${escapeHtml(x.clientName).toUpperCase()}</h2>
+                                    ${x.clientDni ? `<p style="margin: 0; font-size: ${9 * m}px; color: #000;">N\u00B0DOC: ${escapeHtml(x.clientDni)}</p>` : ''}
+                                    <p style="margin: 0; font-size: ${9 * m}px; color: #000;">Cel: ${escapeHtml(x.clientPhone)}</p>
                                 </div>
                                 
-                                ${x.courier !== "Retiro en tienda"
-                            ? `<div style="margin-bottom: 8px; min-height: 35px;">
+                                ${!isStore ? `
+                                <div style="margin-bottom: 8px; min-height: 35px;">
                                     <p style="margin: 0; font-size: ${8 * m}px; color: #666; font-weight: bold; text-transform: uppercase;">DESTINO:</p>
-                                    <p style="margin: 2px 0 0 0; font-size: ${10 * m}px; color: #000; line-height: 1.3;">
-                                        ${x.clientAgency
-                                ? `<strong>AGENCIA:</strong> ${escapeHtml(x.clientAgency)}<br><strong>DNI:</strong> ${x.clientDni}`
-                                : `<strong>DIRECCIÓN:</strong> ${escapeHtml(x.clientAddress)}<br><span style="color:#444">${escapeHtml(x.clientDistrict)}</span>`
-                            }
+                                    ${x.clientAgency ? `
+                                    <p style="margin: 2px 0 0 0; font-size: ${9 * m}px; color: #000; line-height: 1.3;">
+                                        ${escapeHtml(destLine1)}${destLine2 ? `<br><span style="font-size: ${11 * m}px; color: #000; font-weight: bold;">${escapeHtml(destLine2)}</span>` : ''}${address ? `<br>${escapeHtml(address)}` : ''}
+                                    </p>` : `
+                                    <p style="margin: 2px 0 0 0; font-size: ${9 * m}px; color: #000; line-height: 1.3;">
+                                        ${escapeHtml(x.clientDistrict)}<br>${escapeHtml(x.clientAddress)}
                                     </p>
-                                    ${!x.clientAgency ? `<p style="margin: 2px 0 0 0; font-size: ${9 * m}px; color: #555;">Ref: ${escapeHtml(x.clientRef || "-")}</p>` : ""}
-                                </div>`
-                            : `<div style="margin-bottom: 8px; min-height: 35px;">
-                                </div>`
-                        }
-            
-                                <div style="border-top: 1px solid #ccc; padding-top: 6px; display: flex; align-items: center; justify-content: space-between; color: #000;">
+                                    ${x.clientRef ? `<p style="margin: 2px 0 0 0; font-size: ${8 * m}px; color: #555;">Ref: ${escapeHtml(x.clientRef)}</p>` : ''}`}
+                                </div>` : `
+                                <div style="margin-bottom: 8px; min-height: 35px;">
+                                    <p style="margin: 0; font-size: ${8 * m}px; color: #666; font-weight: bold; text-transform: uppercase;">DESTINO:</p>
+                                    <p style="margin: 2px 0 0 0; font-size: ${9 * m}px; color: #000;">Retiro en tienda</p>
+                                </div>`}
+                                
+                                <div style="border-top: 1px solid #777; padding-top: 6px; display: flex; align-items: center; justify-content: space-between; color: #000;">
                                     <span style="font-size: ${10 * m}px; font-weight: 800; text-transform: uppercase; background: #eee; padding: 2px 5px; border-radius: 4px;">${escapeHtml(x.courier)}</span>
                                     <span style="font-size: ${9 * m}px; font-weight: bold;">${escapeHtml(x.shippingDate || "PENDIENTE")}</span>
                                 </div>
                             </div>
-                        `,
-                )
-                .join("")}
+                            `;
+                        }).join('')}
                     </div>
                 `;
         window.print();

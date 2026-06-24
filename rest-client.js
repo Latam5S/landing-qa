@@ -136,8 +136,10 @@ class APIClient {
     }
 
     async saveMerchantConfig(configData, lastUpdated = new Date().toISOString()) {
+        const isNewConfig = configData?.isNewConfig || false;
+        delete configData.isNewConfig; // Remove the flag before sending to the server
         return this.request("/legacy/config", {
-            method: configData.isNewConfig ? "POST" : "PUT",
+            method: isNewConfig ? "POST" : "PUT",
             body: JSON.stringify({
                 dataJson: configData,
                 lastUpdated: lastUpdated,

@@ -246,11 +246,17 @@
         </div>
     </div>
 
-    <!-- TOAST NOTIFICATION -->
+    <!-- TOAST NOTIFICATION (Success) -->
     <div id="toast"
         class="fixed top-4 left-1/2 -translate-x-1/2 z-[100] glass-card border-l-4 border-secondary text-white px-6 py-3 rounded-xl shadow-neon-green flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0">
         <i data-lucide="check-circle" class="w-5 h-5 text-secondary"></i>
         <span id="toast-msg" class="font-bold text-sm">Acción completada</span>
+    </div>
+    <!-- TOAST NOTIFICATION (Error) -->
+    <div id="error-toast"
+        class="fixed top-4 left-1/2 -translate-x-1/2 z-[100] glass-card border-l-4 border-red-500 text-white px-6 py-3 rounded-xl shadow-lg flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0">
+        <i data-lucide="x-circle" class="w-5 h-5 text-red-400"></i>
+        <span id="error-toast-msg" class="font-bold text-sm">Error</span>
     </div>
 
     <!-- ÁREA DE IMPRESIÓN -->
