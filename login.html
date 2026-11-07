@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso a Clientes | Latam5S</title>
+    <meta name="robots" content="noindex">
+    <meta name="description"
+        content="Inicia sesión en tu panel de control Latam5S. Gestiona tus envíos, configura tu logística y centraliza tus envíos en un solo lugar. Acceso seguro para emprendedores.">
+
+    <meta property="og:title" content="Acceso a Clientes | Latam5S">
+    <meta property="og:description"
+        content="Inicia sesión en tu panel de control. Gestiona tus envíos y centraliza tu logística en un solo lugar. Acceso seguro.">
+    <meta property="og:image" content="https://www.latam5s.com/brand.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="/login">
+    <meta property="og:type" content="website">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Acceso a Clientes | Latam5S">
+    <meta name="twitter:description"
+        content="Inicia sesión en tu panel de control. Gestiona tus envíos y centraliza tu logística en un solo lugar. Acceso seguro.">
+    <meta name="twitter:image" content="https://www.latam5s.com/brand.png" />
+
+    <link rel="canonical" href="/login" />
+
+    <!-- Fuente Quicksand -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://script.google.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <style>
+        body {
+            font-family: "Quicksand", sans-serif;
+            background-color: #020617;
+            color: #e2e8f0;
+            /* Slate-200 */
+        }
+
+        /* Glassmorphism Utilities - UNIFICADO Y CONSISTENTE */
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.7);
+            /* Base oscura sólida */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        /* Glassmorphism Utilities - AHORA SÓLIDO (OPACO) */
+        .glass-card {
+            /* CAMBIO: Usamos colores HEX sólidos (#1e293b y #0f172a) en lugar de RGBA con transparencia */
+            background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+
+            /* El backdrop-filter ya no es necesario si el fondo es opaco, pero no daña dejarlo */
+            /* backdrop-filter: blur(16px); */
+
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Scrollbar Personalizada Dark */
+        ::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 2px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Modals & Sheets */
+        .modal-enter {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+
+        .modal-enter-active {
+            opacity: 1;
+            transform: scale(1);
+            transition: opacity 0.2s, transform 0.2s;
+        }
+
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 0.4s ease-out forwards;
+        }
+
+        .slide-up {
+            animation: slideUp 0.4s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Busca esto en login.html y reemplázalo */
+        @media print {
+
+            /* CORRECCIÓN: Agregamos !important para anular el bg-dark_bg de Tailwind */
+            body {
+                background-color: white !important;
+                color: black !important;
+                height: auto !important;
+                /* Evita que ocupe el 100vh oscuro */
+                overflow: visible !important;
+            }
+
+            /* Aseguramos que el fondo no se cuele por ningún lado */
+            html {
+                background-color: white !important;
+            }
+
+            body * {
+                visibility: hidden;
+            }
+
+            #print-area,
+            #print-area * {
+                visibility: visible;
+            }
+
+            #print-area {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: white !important;
+                /* Fondo blanco forzado */
+                display: block !important;
+                z-index: 9999;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+
+            * {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+            }
+        }
+
+        /* Canvas Background */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            /* Detrás de todo */
+            pointer-events: none;
+            /* Click-through */
+        }
+
+        .logo-text-gradient {
+            /* Degradado horizontal para el texto Latam5S (simula las redes sociales) */
+            background: linear-gradient(to right, #3B82F6, #60A5FA, #2DD4BF, #10B981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            /* Compatible con otros navegadores */
+            color: transparent;
+            /* Fallback */
+        }
+    </style>
+  <script type="module" crossorigin src="./assets/login-CslCIID5.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/tailwind-1ZzzTOmm.js">
+  <link rel="modulepreload" crossorigin href="./assets/icons-DYEchwhR.js">
+  <link rel="stylesheet" crossorigin href="./assets/tailwind-BnP0tDzA.css">
+</head>
+
+<body
+    class="bg-dark_bg text-slate-200 h-[100dvh] overflow-hidden flex flex-col selection:bg-primary selection:text-white relative">
+
+    <!-- OVERLAY CARGA -->
+    <div id="loading-overlay"
+        class="fixed inset-0 bg-dark_bg/95 z-[9999] flex flex-col items-center justify-center transition-opacity duration-300 hidden pointer-events-none opacity-0 backdrop-blur-sm">
+        <div class="relative">
+            <div class="animate-spin rounded-full h-16 w-16 border-t-2 border-b-2 border-primary shadow-neon"></div>
+            <div
+                class="absolute top-0 left-0 h-16 w-16 rounded-full border-t-2 border-b-2 border-primary opacity-50 animate-pulse">
+            </div>
+        </div>
+        <p id="loading-text" class="text-primary font-bold mt-6 animate-pulse tracking-widest text-xs uppercase">
+            Conectando...</p>
+    </div>
+
+    <div id="generic-modal"
+        class="fixed inset-0 z-[100] bg-black/80 backdrop-blur-md hidden flex items-center justify-center transition-opacity duration-200 opacity-0"
+        onclick="if(event.target === this) app.closeModal()">
+        <div
+            class="glass-card rounded-3xl p-8 max-w-sm w-full mx-4 transform scale-95 transition-transform duration-200 border border-white/10 shadow-2xl relative">
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION (Success) -->
+    <div id="toast"
+        class="fixed top-4 left-1/2 -translate-x-1/2 z-[100] glass-card border-l-4 border-secondary text-white px-6 py-3 rounded-xl shadow-neon-green flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0">
+        <i data-lucide="check-circle" class="w-5 h-5 text-secondary"></i>
+        <span id="toast-msg" class="font-bold text-sm">Acción completada</span>
+    </div>
+    <!-- TOAST NOTIFICATION (Error) -->
+    <div id="error-toast"
+        class="fixed top-4 left-1/2 -translate-x-1/2 z-[100] glass-card border-l-4 border-red-500 text-white px-6 py-3 rounded-xl shadow-lg flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0">
+        <i data-lucide="x-circle" class="w-5 h-5 text-red-400"></i>
+        <span id="error-toast-msg" class="font-bold text-sm">Error</span>
+    </div>
+
+    <!-- ÁREA DE IMPRESIÓN -->
+    <div id="print-area" class="hidden bg-white p-4 text-black"></div>
+
+    <!-- VISTA AUTH (Login) -->
+    <div id="view-auth"
+        class="flex-1 h-full flex flex-col items-center justify-center p-4 hidden overflow-y-auto no-print relative z-10">
+        <div class="glass-card w-full max-w-md rounded-3xl shadow-2xl overflow-hidden slide-up my-auto relative z-10">
+            <div class="bg-card_bg/50 p-8 text-center relative overflow-hidden border-b border-white/5">
+                <div class="absolute top-0 right-0 p-4 opacity-5"><i data-lucide="box" class="w-32 h-32 text-white"></i>
+                </div>
+                <div class="relative z-10">
+                    <h1 class="text-3xl font-bold text-white tracking-tight logo-text-gradient">Latam5S</h1>
+                    <div id="connection-status"
+                        class="inline-flex items-center gap-2 bg-white/5 px-4 py-1.5 rounded-full text-[10px] font-bold text-secondary mt-3 border border-white/5">
+                        <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span> Sistema Seguro
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-8">
+                <form onsubmit="app.handleLogin(event)" class="space-y-6">
+                    <div class="space-y-2">
+                        <label
+                            class="block text-xs font-bold text-primary uppercase tracking-wider ml-1">WhatsApp</label>
+                        <input id="auth-phone" type="tel" required placeholder="Ingresa tu número"
+                            class="w-full bg-black/30 border border-white/10 text-white rounded-xl p-4 outline-none focus:border-primary focus:ring-1 focus:ring-primary transition placeholder-slate-600">
+                    </div>
+                    <div class="space-y-2">
+                        <label
+                            class="block text-xs font-bold text-primary uppercase tracking-wider ml-1">Contraseña</label>
+                        <input id="auth-pass" type="password" required placeholder="Ingresa tu contraseña"
+                            class="w-full bg-black/30 border border-white/10 text-white rounded-xl p-4 outline-none focus:border-primary focus:ring-1 focus:ring-primary transition placeholder-slate-600">
+                    </div>
+                    <button type="submit"
+                        class="w-full bg-primary hover:bg-blue-600 text-white font-bold py-4 rounded-xl shadow-neon transition active:scale-95 flex justify-center items-center gap-2 mt-4">
+                        Iniciar Sesión
+                    </button>
+                </form>
+                <p id="auth-error"
+                    class="text-red-400 text-xs text-center mt-4 font-bold hidden bg-red-500/10 py-2 rounded-lg border border-red-500/20">
+                </p>
+                <div class="mt-8 text-center text-xs text-slate-500 pt-4 border-t border-white/5">
+                    Acceso exclusivo para socios registrados.
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+            Powered by Latam5S
+        </div>
+    </div>
+
+    <!-- VISTA ADMIN -->
+    <div id="view-admin" class="flex-1 flex flex-col h-full hidden no-print overflow-hidden z-10">
+        <header class="glass-panel p-4 flex justify-between items-center shadow-lg z-20">
+            <div class="flex items-center gap-3">
+                <div class="bg-primary/20 p-2 rounded-lg text-primary border border-primary/20"><i data-lucide="shield"
+                        class="w-5 h-5"></i></div>
+                <h1 class="font-bold text-lg text-white">Panel Admin</h1>
+            </div>
+            <button onclick="app.logout()"
+                class="text-xs font-bold bg-white/5 hover:bg-white/10 text-white px-4 py-2 rounded-lg transition border border-white/5">Salir</button>
+        </header>
+        <main class="flex-1 p-4 md:p-8 overflow-y-auto max-w-5xl mx-auto w-full space-y-6 pb-20">
+            <div class="glass-card p-6 rounded-3xl">
+                <h2 class="text-lg font-bold text-white mb-4 flex items-center gap-2"><i data-lucide="user-plus"
+                        class="w-5 h-5 text-primary"></i> Alta de Emprendedor</h2>
+                <form onsubmit="app.adminCreateUser(event)" class="flex flex-col md:flex-row gap-4 items-end">
+                    <div class="flex-1 w-full">
+                        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">WhatsApp del
+                            Cliente</label>
+                        <input id="admin-new-phone" type="tel" required placeholder="Ej: 999888777"
+                            class="w-full bg-black/30 border border-white/10 text-white rounded-xl p-4 outline-none focus:border-primary transition">
+                    </div>
+                    <div class="w-full md:w-40">
+                        <label class="block text-xs font-bold text-slate-400 uppercase mb-2">Plan</label>
+                        <select id="admin-new-plan"
+                            class="w-full bg-black/30 border border-white/10 text-white rounded-xl p-4 outline-none focus:border-primary cursor-pointer">
+                            <option value="Gratis" class="bg-card_bg">Gratis</option>
+                            <option value="Pro" class="bg-card_bg">Pro</option>
+                            <option value="Empresa" class="bg-card_bg">Empresa</option>
+                        </select>
+                    </div>
+                    <button type="submit"
+                        class="w-full md:w-auto bg-primary text-white px-6 py-4 rounded-xl font-bold hover:bg-blue-600 transition flex items-center justify-center gap-2 shadow-neon">
+                        <i data-lucide="zap" class="w-4 h-4"></i> Crear
+                    </button>
+                </form>
+            </div>
+            <div class="glass-card rounded-3xl overflow-hidden">
+                <div class="p-6 border-b border-white/5 flex justify-between items-center">
+                    <h2 class="text-lg font-bold text-white">Usuarios Registrados</h2>
+                    <button onclick="app.adminLoadUsers()"
+                        class="p-2 hover:bg-white/5 rounded-full text-slate-400 hover:text-white transition"><i
+                            data-lucide="refresh-cw" class="w-4 h-4"></i></button>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left text-slate-300">
+                        <thead class="bg-black/20 text-slate-400 uppercase text-xs font-bold">
+                            <tr>
+                                <th class="px-6 py-4">WhatsApp</th>
+                                <th class="px-6 py-4">Plan</th>
+                                <th class="px-6 py-4">Fecha Alta</th>
+                                <th class="px-6 py-4 text-right">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-users-list" class="divide-y divide-white/5"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="text-center text-[10px] text-slate-500 mt-8 uppercase font-bold tracking-widest">
+                Powered by Latam5S
+            </div>
+        </main>
+    </div>
+
+    <!-- VISTA DASHBOARD (EMPRENDEDOR) -->
+    <div id="view-dashboard" class="flex-1 flex flex-col md:flex-row h-full hidden no-print overflow-hidden z-10">
+        <aside
+            class="w-full md:w-72 glass-panel md:border-r border-b border-white/5 flex flex-col shadow-lg z-20 flex-shrink-0">
+            <!-- HEADER ADAPTATIVO -->
+            <div class="p-4 md:p-6 border-b border-white/5 flex justify-between items-center bg-black/20">
+                <div class="flex items-center gap-3">
+                    <div
+                        class="bg-secondary/10 p-2 rounded-xl text-secondary border border-secondary/20 shadow-neon-green">
+                        <i data-lucide="package" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h1 id="dashboard-title" class="font-bold text-lg text-white leading-tight">Mi Panel</h1>
+                        <p class="text-xs text-slate-400 hidden md:block">Emprendedor</p>
+                    </div>
+                </div>
+                <!-- CONTROLES SOLO MÓVIL -->
+                <div class="flex items-center gap-3 md:hidden">
+                    <div class="text-right">
+                        <p class="user-phone-display text-xs font-bold text-slate-300">...</p>
+                        <p
+                            class="user-plan-display text-[10px] font-bold text-primary bg-primary/10 px-2 py-0.5 rounded border border-primary/20">
+                            ...</p>
+                    </div>
+                    <button onclick="app.logout()"
+                        class="bg-red-500/10 text-red-400 p-2 rounded-lg hover:bg-red-500/20 transition border border-red-500/20">
+                        <i data-lucide="log-out" class="w-4 h-4"></i>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="flex md:flex-col p-2 gap-1 overflow-x-auto no-scrollbar">
+                <button onclick="app.setTab('config')" id="nav-config"
+                    class="nav-item p-3 rounded-lg text-sm font-bold text-left flex gap-3 items-center text-slate-400 hover:bg-white/5 hover:text-white transition whitespace-nowrap"><i
+                        data-lucide="settings" class="w-4 h-4"></i> Configurar</button>
+                <button onclick="app.setTab('share')" id="nav-share"
+                    class="nav-item p-3 rounded-lg text-sm font-bold text-left flex gap-3 items-center text-slate-400 hover:bg-white/5 hover:text-white transition whitespace-nowrap"><i
+                        data-lucide="share-2" class="w-4 h-4"></i> Compartir</button>
+                <button onclick="app.setTab('orders')" id="nav-orders"
+                    class="nav-item p-3 rounded-lg text-sm font-bold text-left flex gap-3 items-center text-slate-400 hover:bg-white/5 hover:text-white transition whitespace-nowrap"><i
+                        data-lucide="truck" class="w-4 h-4"></i> Envíos</button>
+            </nav>
+
+            <div class="hidden md:block mx-3 mt-4 mb-2 relative group cursor-default">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-primary/10 to-purple-500/10 rounded-2xl border border-white/10 blur-sm group-hover:blur-md transition-all duration-500">
+                </div>
+
+                <div
+                    class="relative bg-black/40 backdrop-blur-md rounded-2xl p-4 border border-white/5 flex flex-col justify-center overflow-hidden min-h-[100px]">
+
+                    <p
+                        class="text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-3 border-b border-white/5 pb-1">
+                        Resumen de Envíos
+                    </p>
+
+                    <div id="courier-breakdown-list" class="flex flex-col gap-2">
+                        <span class="text-xs text-slate-500 italic">Esperando datos...</span>
+                    </div>
+
+                    <div
+                        class="absolute -top-6 -right-6 w-12 h-12 bg-primary/20 rounded-full blur-xl pointer-events-none">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- FOOTER ESCRITORIO -->
+            <div class="mt-auto p-4 border-t border-white/5 hidden md:block bg-black/20">
+                <div class="flex items-center gap-3 mb-4">
+                    <div
+                        class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 border border-white/5">
+                        <i data-lucide="phone" class="w-5 h-5"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <p class="user-phone-display text-sm font-bold text-white truncate">...</p>
+                        <p
+                            class="user-plan-display text-[10px] font-bold text-primary uppercase tracking-wide bg-primary/10 px-2 py-0.5 rounded w-fit mt-1 border border-primary/20">
+                            PLAN GRATIS</p>
+                    </div>
+                </div>
+                <button onclick="app.logout()"
+                    class="w-full text-red-400 text-xs font-bold hover:bg-red-500/10 py-3 rounded-xl transition border border-transparent hover:border-red-500/20">Cerrar
+                    Sesión</button>
+                <div class="text-center text-[9px] text-slate-500 mt-4 uppercase font-bold tracking-widest">
+                    Powered by Latam5S
+                </div>
+            </div>
+        </aside>
+
+        <!-- Contenedor Principal -->
+        <main class="flex-1 relative overflow-hidden flex flex-col">
+            <!-- Decoración de fondo sutil -->
+            <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-20">
+                <div class="absolute top-[10%] right-[10%] w-64 h-64 bg-primary/30 rounded-full blur-[100px]"></div>
+            </div>
+
+            <!-- PESTAÑA CONFIGURACIÓN (Aplicado glass-card unificado, ancho completo) -->
+            <div id="tab-config" class="tab-content w-full h-full overflow-y-auto p-4 md:p-8 hidden no-scrollbar z-10">
+                <div class="max-w-7xl mx-auto slide-up pb-32">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-2xl font-bold text-white">Configuración</h2><button id="btn-save-config"
+                            onclick="app.saveConfig()"
+                            class="bg-primary text-white px-6 py-2.5 rounded-xl text-sm font-bold hover:bg-blue-600 transition flex gap-2 shadow-neon"><i
+                                data-lucide="save" class="w-4 h-4"></i> Guardar</button>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                        <!-- Columna Izquierda: Datos y Seguridad -->
+                        <div class="space-y-6">
+                            <div class="glass-card p-6 rounded-3xl space-y-5">
+                                <h3
+                                    class="font-bold text-primary uppercase text-xs tracking-wider mb-4 border-b border-white/5 pb-2">
+                                    Datos Públicos</h3>
+                                <div><label class="text-xs font-bold text-slate-400 uppercase mb-1 block">Nombre
+                                        Emprendimiento</label><input id="inp-store-name"
+                                        oninput="app.updateConfigInput('merchantName', this.value)"
+                                        class="w-full bg-black/30 border border-white/10 rounded-xl p-4 text-white outline-none focus:border-primary transition">
+                                </div>
+                                <div>
+                                    <label class="text-xs font-bold text-slate-400 uppercase mb-1 block">WhatsApp
+                                        Emprendimiento</label>
+                                    <div class="relative">
+                                        <span
+                                            class="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500 font-bold text-sm">+51</span>
+                                        <input id="inp-whatsapp" type="tel" maxlength="9" placeholder="9..."
+                                            inputmode="numeric" oninput="app.formatWhatsapp(this)"
+                                            class="w-full bg-black/30 border border-white/10 rounded-xl py-4 pr-4 pl-12 text-white outline-none focus:border-primary transition font-mono tracking-wider">
+                                    </div>
+                                    <p class="text-[10px] text-slate-500 mt-1 pl-1">Solo números, debe empezar con 9.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="glass-card p-6 rounded-3xl">
+                                <h3
+                                    class="font-bold text-primary uppercase text-xs tracking-wider mb-4 flex items-center gap-2 border-b border-white/5 pb-2">
+                                    <i data-lucide="lock" class="w-3 h-3"></i> Seguridad
+                                </h3>
+                                <div class="flex gap-3 items-end">
+                                    <div class="flex-1">
+                                        <label class="text-xs font-bold text-slate-400 uppercase mb-1 block">Nueva
+                                            Contraseña</label>
+                                        <input id="inp-new-pass" type="password"
+                                            class="w-full bg-black/30 border border-white/10 rounded-xl p-4 text-white outline-none focus:border-primary transition">
+                                    </div>
+                                    <button id="btn-change-pass" onclick="app.changePassword()"
+                                        class="bg-indigo-600 text-white px-6 py-3 rounded-xl text-sm font-bold hover:bg-indigo-700 transition h-[56px] shadow-lg">Actualizar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Columna Derecha: Logística (Full Height) -->
+                        <div class="flex flex-col">
+                            <div class="glass-card p-6 rounded-3xl space-y-5 h-full relative">
+                                <h3
+                                    class="font-bold text-primary uppercase text-xs tracking-wider mb-4 border-b border-white/5 pb-2">
+                                    Logística <span class="text-red-400">*</span>
+                                </h3>
+
+                                <div>
+                                    <label class="text-xs font-bold text-slate-400 uppercase block mb-2">
+                                        Métodos de envío/retiro <span class="text-red-500">*</span></label>
+                                    <div id="container-couriers" class="grid grid-cols-2 gap-2"></div>
+                                </div>
+
+                                <div>
+                                    <label class="text-xs font-bold text-slate-400 uppercase block mt-2 mb-2">Días de
+                                        Despacho <span class="text-red-500">*</span></label>
+                                    <div id="container-days" class="flex flex-wrap gap-2"></div>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-4 mt-2">
+                                    <div>
+                                        <label class="text-xs font-bold text-slate-400 uppercase block mb-1">Hora Corte
+                                            <span class="text-red-500">*</span></label>
+                                        <div
+                                            class="flex items-center gap-2 bg-black/20 p-3 rounded-xl border border-white/5">
+                                            <i data-lucide="clock" class="w-4 h-4 text-primary"></i>
+                                            <input type="time" id="inp-time"
+                                                onchange="app.updateConfigInput('updateTime', this.value); app.checkConfigStatus()"
+                                                class="bg-transparent text-sm text-white outline-none w-full cursor-pointer">
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <label class="text-xs font-bold text-slate-400 uppercase block mb-1"
+                                            title="Días de anticipación mínimos para el pedido">Anticipación (Días)
+                                            <span class="text-red-500">*</span></label>
+                                        <div
+                                            class="flex items-center gap-2 bg-black/20 p-3 rounded-xl border border-white/5">
+                                            <i data-lucide="calendar-clock" class="w-4 h-4 text-secondary"></i>
+                                            <input type="number" id="inp-gap" min="0" max="30" placeholder="0"
+                                                oninput="app.updateConfigInput('updateGap', this.value); app.checkConfigStatus()"
+                                                class="bg-transparent text-sm text-white outline-none w-full placeholder-slate-600">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <p class="text-[10px] text-slate-500 leading-tight mt-2">
+                                    <span class="text-primary">*</span> La "Anticipación" define cuántos días mínimos de
+                                    margen necesitas para preparar el pedido antes del día de envío.
+                                </p>
+
+                                <div class="flex items-center justify-between pt-4 mt-4 border-t border-white/5">
+                                    <div>
+                                        <label class="text-xs font-bold text-slate-400 uppercase block">Estados
+                                            avanzados de envío</label>
+                                        <span class="text-[10px] text-slate-500 block mt-0.5">Habilita EN PREPARACIÓN,
+                                            EMPAQUETADO y CANCELADO</span>
+                                    </div>
+                                    <button type="button" id="sw-advanced-statuses" onclick="app.toggleAdvancedOrderStatus()"
+                                        class="relative w-12 h-7 rounded-full bg-slate-700 transition-colors flex-shrink-0"
+                                        aria-pressed="false">
+                                        <span id="sw-knob"
+                                            class="absolute top-1 left-1 w-5 h-5 rounded-full bg-white shadow transition-transform"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center text-[10px] text-slate-500 uppercase font-bold tracking-widest pt-8">
+                        Powered by Latam5S
+                    </div>
+                </div>
+            </div>
+
+            <!-- PESTAÑA COMPARTIR (Ya tenía glass-card, se mantiene igual) -->
+            <div id="tab-share" class="tab-content w-full h-full overflow-y-auto p-4 hidden no-scrollbar z-10">
+                <div class="min-h-full flex flex-col items-center justify-center py-8 pb-32">
+                    <div class="glass-card p-8 rounded-3xl text-center max-w-md w-full slide-up border border-white/10">
+                        <div
+                            class="w-20 h-20 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-6 text-secondary border border-secondary/20 shadow-neon-green">
+                            <i data-lucide="share-2" class="w-10 h-10"></i>
+                        </div>
+
+                        <h2 class="text-2xl font-bold mb-4 text-white">¡Listo para compartir!</h2>
+                        <p class="text-slate-400 text-sm mb-8 leading-relaxed">
+                            Tu formulario personalizado está activo. Comparte el siguiente enlace con tus clientes.
+                        </p>
+
+                        <div class="bg-black/30 p-4 rounded-xl border border-white/10 mb-8 break-all font-mono text-primary select-all cursor-pointer hover:bg-black/40 transition"
+                            onclick="app.copyLink()"><code id="share-link" class="text-xs font-bold">...</code></div>
+
+                        <div class="space-y-4">
+                            <button onclick="app.copyLink()"
+                                class="w-full bg-primary text-white py-4 rounded-xl font-bold hover:bg-blue-600 transition shadow-neon">Copiar
+                                Link</button>
+                            <button onclick="app.shareOnWhatsapp()"
+                                class="w-full bg-secondary/20 text-secondary py-4 rounded-xl font-bold hover:bg-secondary/30 transition flex items-center justify-center gap-3 border border-secondary/20">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg>
+                                Enviar por WhatsApp
+                            </button>
+                            <button onclick="app.openClientLink()"
+                                class="w-full bg-white/5 text-white border border-white/10 py-4 rounded-xl font-bold hover:bg-white/10 transition flex items-center justify-center gap-2"><i
+                                    data-lucide="external-link" class="w-4 h-4"></i> Abrir en nueva pestaña</button>
+                        </div>
+                    </div>
+                    <div class="text-center text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-8">
+                        Powered by Latam5S
+                    </div>
+                </div>
+            </div>
+
+            <!-- PESTAÑA ENVÍOS (Actualizada a rounded-3xl) -->
+            <div id="tab-orders" class="tab-content hidden w-full h-full flex flex-col p-3 md:p-8 z-10">
+
+                <!-- Toolbar Compacta Glass -->
+                <div class="glass-card p-4 rounded-3xl mb-3 flex flex-col gap-3 flex-shrink-0">
+                    <!-- Línea 1: Filtros -->
+                    <div class="flex items-center gap-2 mb-1 h-8 relative z-40">
+
+                        <div class="relative h-full shrink-0">
+                            <button onclick="app.toggleDropdown()" id="filter-trigger-btn"
+                                class="h-full px-2.5 bg-primary text-white font-bold rounded-lg flex items-center gap-1.5 shadow-sm border border-white/10 transition active:scale-95 text-xs">
+                                <span id="filter-label-display"
+                                    class="uppercase tracking-wide text-[10px] sm:text-xs">Pendientes</span>
+                                <i data-lucide="chevron-down" class="w-3 h-3 transition-transform duration-300"
+                                    id="filter-chevron"></i>
+                            </button>
+
+                            <div id="filter-dropdown-menu"
+                                class="hidden absolute top-full mt-1 left-0 w-48 bg-[#0f172a] border border-white/10 rounded-lg shadow-xl overflow-hidden backdrop-blur-md flex-col z-50 divide-y divide-white/5 animate-fade-in">
+                                <button onclick="app.setFilterStatus('PENDIENTE')"
+                                    class="w-full text-left px-3 py-2.5 text-xs font-bold text-white hover:bg-white/5 flex items-center justify-between group">
+                                    PENDIENTES <i data-lucide="clock"
+                                        class="w-3 h-3 text-slate-500 group-hover:text-primary"></i>
+                                </button>
+                                <div id="advanced-status-filters-top" class="hidden divide-y divide-white/5">
+                                    <button onclick="app.setFilterStatus('EN_PREPARACION')"
+                                        class="w-full text-left px-3 py-2.5 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 flex items-center justify-between group">
+                                        EN PREPARACIÓN <i data-lucide="package-open"
+                                            class="w-3 h-3 text-slate-500 group-hover:text-orange-400"></i>
+                                    </button>
+                                    <button onclick="app.setFilterStatus('EMPAQUETADO')"
+                                        class="w-full text-left px-3 py-2.5 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 flex items-center justify-between group">
+                                        EMPAQUETADOS <i data-lucide="package-check"
+                                            class="w-3 h-3 text-slate-500 group-hover:text-indigo-400"></i>
+                                    </button>
+                                </div>
+                                <button onclick="app.setFilterStatus('ENVIADO')"
+                                    class="w-full text-left px-3 py-2.5 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 flex items-center justify-between group">
+                                    ENVIADOS <i data-lucide="truck"
+                                        class="w-3 h-3 text-slate-500 group-hover:text-secondary"></i>
+                                </button>
+                                <div id="advanced-status-filters-bottom" class="hidden divide-y divide-white/5">
+                                    <button onclick="app.setFilterStatus('CANCELADO')"
+                                        class="w-full text-left px-3 py-2.5 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 flex items-center justify-between group">
+                                        CANCELADOS <i data-lucide="x-circle"
+                                            class="w-3 h-3 text-slate-500 group-hover:text-red-400"></i>
+                                    </button>
+                                </div>
+                                <button onclick="app.setFilterStatus('TODOS')"
+                                    class="w-full text-left px-3 py-2.5 text-xs font-bold text-slate-300 hover:text-white hover:bg-white/5 flex items-center justify-between group">
+                                    TODOS <i data-lucide="layers"
+                                        class="w-3 h-3 text-slate-500 group-hover:text-white"></i>
+                                </button>
+                            </div>
+                            <div id="dropdown-overlay" onclick="app.closeDropdown()"
+                                class="hidden fixed inset-0 z-40 cursor-default"></div>
+                        </div>
+
+                        <div
+                            class="h-full shrink-0 relative bg-black/30 border border-white/10 rounded-lg flex items-center px-2 w-[90px] md:w-auto hover:border-white/30 transition-colors">
+                            <input type="date" id="date-specific" onchange="app.onFilterChange()"
+                                class="w-full h-full bg-transparent text-[10px] sm:text-xs text-white outline-none border-none cursor-pointer font-bold"
+                                style="color-scheme: dark;">
+                            <div id="date-indicator"
+                                class="hidden absolute top-1 right-1 w-1 h-1 bg-primary rounded-full animate-pulse">
+                            </div>
+                        </div>
+
+                        <div class="relative flex-grow h-full z-10 min-w-0">
+                            <div class="absolute inset-y-0 left-0 flex items-center pl-2.5 pointer-events-none">
+                                <i data-lucide="search" class="w-3 h-3 text-slate-400"></i>
+                            </div>
+                            <input id="inp-search-orders" oninput="app.onFilterChange()"
+                                class="block w-full h-full pl-8 pr-2 text-xs text-white bg-black/30 border border-white/10 rounded-lg focus:border-primary outline-none transition-all placeholder-slate-500 truncate"
+                                placeholder="Buscar...">
+                        </div>
+
+                    </div>
+
+                    <!-- Línea 2: Herramientas -->
+                    <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pb-1">
+                        <button onclick="app.toggleAllSelection()"
+                            class="px-3 py-2 bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 rounded-lg text-xs font-bold whitespace-nowrap flex items-center gap-2 flex-shrink-0 transition">
+                            <i data-lucide="check-square" class="w-4 h-4"></i> <span
+                                class="hidden sm:inline">Todo</span>
+                        </button>
+
+                        <div class="h-6 w-px bg-white/10 mx-1 flex-shrink-0"></div>
+
+                        <button onclick="app.printLabels()"
+                            class="px-3 py-2 bg-white/5 text-slate-300 border border-white/10 rounded-lg font-bold hover:bg-white/10 transition flex items-center justify-center gap-2 text-xs flex-shrink-0">
+                            <i data-lucide="printer" class="w-4 h-4"></i> <span
+                                class="hidden sm:inline">Etiquetas</span>
+                        </button>
+                        <button onclick="app.exportExcel()"
+                            class="px-3 py-2 bg-secondary/10 text-secondary border border-secondary/20 rounded-lg font-bold hover:bg-secondary/20 transition flex items-center justify-center gap-2 text-xs flex-shrink-0">
+                            <i data-lucide="file-spreadsheet" class="w-4 h-4"></i> <span
+                                class="hidden sm:inline">Excel</span>
+                        </button>
+                        <button onclick="app.loadOrders()"
+                            class="px-3 py-2 bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 text-slate-300 flex-shrink-0 transition">
+                            <i data-lucide="refresh-cw" class="w-4 h-4"></i>
+                        </button>
+
+                        <div class="h-6 w-px bg-white/10 mx-1 flex-shrink-0"></div>
+
+                        <button onclick="app.openStatusMenu()"
+                            class="px-3 py-2 bg-primary/80 hover:bg-primary text-white rounded-lg text-xs font-bold whitespace-nowrap flex items-center gap-1 flex-shrink-0 shadow-neon transition">
+                            <i data-lucide="workflow" class="w-4 h-4"></i> <span
+                                class="hidden sm:inline">Estado</span>
+                        </button>
+                        <button onclick="app.deleteSelected()"
+                            class="px-3 py-2 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 rounded-lg text-xs font-bold whitespace-nowrap flex items-center gap-2 flex-shrink-0 transition">
+                            <i data-lucide="trash-2" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Lista Glass -->
+                <div class="flex-1 min-h-0 flex flex-col glass-card rounded-3xl relative">
+                    <div class="overflow-y-auto p-2 space-y-1 h-full pb-32 custom-scrollbar" id="orders-list">
+                        <!-- Items -->
+                    </div>
+                    <!-- AVISO DEL PLAN GRATIS (SE MUESTRA SOLO SI EL PLAN ES GRATIS) -->
+                    <div id="plan-limit-warning"
+                        class="hidden absolute inset-0 p-6 bg-dark_bg/90 backdrop-blur-md z-30 flex flex-col items-center justify-center text-center rounded-3xl">
+                        <div
+                            class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mb-6 text-primary mx-auto shadow-neon border border-primary/20 animate-pulse">
+                            <i data-lucide="lock" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="text-lg font-bold text-white mb-2">Plan Gratuito Limitado</h3>
+                        <p class="text-sm text-slate-400 mb-6 font-medium">
+                            La visualización de respuestas no está incluida en su plan actual.
+                        </p>
+                        <button onclick="app.showUpgradeModal()"
+                            class="bg-gradient-to-r from-primary to-indigo-600 text-white px-8 py-4 rounded-xl font-bold shadow-neon hover:scale-105 transition flex items-center gap-2">
+                            <i data-lucide="sparkles" class="w-4 h-4"></i> Ver <span id="hidden-count">0</span>
+                            registros
+                        </button>
+                        <p
+                            class="text-[11px] text-slate-500 mt-6 leading-relaxed max-w-xs mx-auto border-t border-white/5 pt-4">
+                            Todas tus respuestas serán visibles aquí, incluidas las conversaciones que se descarten en
+                            WhatsApp. Con el plan gratuito, solo se almacenan 2 meses de respuestas.
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    class="text-center text-[10px] text-slate-500 uppercase font-bold tracking-widest mt-4 md:hidden pb-2">
+                    Powered by Latam5S
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="modal-export"
+        class="hidden fixed inset-0 z-[60] flex items-center justify-center bg-black/80 backdrop-blur-sm p-4 animate-fade-in">
+        <div class="bg-slate-900 border border-white/10 rounded-xl shadow-2xl w-full max-w-md overflow-hidden">
+            <div class="bg-white/5 p-4 border-b border-white/5 flex justify-between items-center">
+                <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                    <i data-lucide="file-spreadsheet" class="text-green-500"></i> Exportar Pedidos
+                </h3>
+                <button onclick="document.getElementById('modal-export').classList.add('hidden')"
+                    class="text-slate-400 hover:text-white transition">
+                    <i data-lucide="x" class="w-5 h-5"></i>
+                </button>
+            </div>
+
+            <div class="p-6 space-y-4">
+                <p class="text-sm text-slate-400 mb-4">Hemos detectado los siguientes couriers en tu lista filtrada.
+                    ¿Qué formato deseas descargar?</p>
+
+                <div id="export-options" class="space-y-3">
+                </div>
+
+                <div class="border-t border-white/5 pt-4 mt-4">
+                    <button onclick="app.downloadFormat('general')"
+                        class="w-full flex items-center justify-between p-3 rounded-lg bg-slate-800 border border-white/5 hover:bg-slate-700 transition group">
+                        <div class="flex items-center gap-3">
+                            <div
+                                class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-slate-300 group-hover:bg-slate-600">
+                                <i data-lucide="table" class="w-4 h-4"></i>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-sm font-bold text-white">Reporte General</p>
+                                <p class="text-xs text-slate-500">Para tu control interno (Todo unificado)</p>
+                            </div>
+                        </div>
+                        <i data-lucide="download" class="w-4 h-4 text-slate-500 group-hover:text-white"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
