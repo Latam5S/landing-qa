@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Agenda tu envío</title>
+    <meta name="description"
+        content="Completa tus datos de entrega en segundos y programa tu envío. 100% Seguro y Fácil.">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Programa tu envío">
+    <meta property="og:image" content="https://www.latam5s.com/brand3.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Quicksand", sans-serif;
+            background-color: #ffffff;
+            color: #2b2b2b;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        input,
+        select {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
+        .input-transition {
+            transition: all 0.2s ease-in-out;
+        }
+
+        .logo-text-gradient {
+            background: linear-gradient(to right, #3B82F6, #60A5FA, #2DD4BF, #10B981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+    </style>
+  <script type="module" crossorigin src="./assets/form-D_q7XLgF.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/tailwind-CgZZv7n8.js">
+  <link rel="modulepreload" crossorigin href="./assets/icons-DYEchwhR.js">
+  <link rel="stylesheet" crossorigin href="./assets/tailwind-DztoIjdP.css">
+</head>
+
+<body class="min-h-[100dvh] flex flex-col items-center selection:bg-primary selection:text-white">
+
+    <div class="sticky top-0 z-[50] w-full bg-white border-b border-gray-100 shadow-sm">
+        <div class="max-w-xl mx-auto px-6 py-3 flex items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-blue-50 flex items-center justify-center text-primary shadow-sm">
+                    <i data-lucide="package" class="w-6 h-6"></i>
+                </div>
+
+                <div class="flex flex-col text-left">
+                    <span id="client-title" class="text-base font-bold text-gray-800 leading-tight">Cargando...</span>
+                    <span class="text-[11px] font-bold text-gray-400 uppercase tracking-widest">
+                        Formulario de Envío
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loading-overlay"
+        class="fixed inset-0 bg-white z-[9999] flex flex-col items-center justify-center transition-opacity duration-300">
+        <div class="animate-spin rounded-full h-10 w-10 border-t-4 border-b-4 border-gray-200"></div>
+        <p class="mt-4 text-brand_text font-bold text-xs uppercase tracking-widest animate-pulse">Cargando...</p>
+    </div>
+
+    <div id="toast"
+        class="fixed top-5 right-5 z-[100] bg-slate-900 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0 border border-slate-800 max-w-sm">
+        <div class="text-green-400">
+            <i data-lucide="check-circle" class="w-6 h-6"></i>
+        </div>
+        <span id="toast-msg" class="font-bold text-sm leading-tight">Notificación</span>
+    </div>
+
+    <div id="error-toast"
+        class="fixed top-5 right-5 z-[100] bg-slate-900 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center gap-3 transition-all duration-300 -translate-y-20 opacity-0 border border-slate-800 max-w-sm">
+        <div class="text-red-400">
+            <i data-lucide="x-circle" class="w-6 h-6"></i>
+        </div>
+        <span id="error-toast-msg" class="font-bold text-sm leading-tight">Notificación</span>
+    </div>
+
+    <main class="w-full max-w-xl px-6 py-8 md:py-12 relative animate-fade-in flex flex-col flex-1">
+
+        <div id="view-client" class="relative flex-1 flex flex-col">
+
+            <div class="mb-8 p-4 bg-orange-50 border border-orange-100 rounded-xl flex gap-3 items-start">
+                <i data-lucide="clock" class="w-5 h-5 text-orange-400 mt-0.5 flex-shrink-0"></i>
+                <div class="text-sm text-orange-800">
+                    <span class="font-bold block mb-1">Hora de corte: <span id="client-time">--:--</span></span>
+                    Asegura tu envío registrando tus datos antes de la hora de corte.
+                </div>
+            </div>
+
+            <form id="client-form" onsubmit="app.submitOrder(event)" class="space-y-8 flex-1">
+
+                <div id="block-identity" class="relative z-30">
+                    <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Tu WhatsApp <span
+                            class="text-danger">*</span></label>
+                    <div class="relative">
+                        <span
+                            class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400 font-bold text-lg">+51</span>
+                        <input id="c-phone" type="tel" maxlength="9" inputmode="numeric" placeholder="9XXXXXXXX"
+                            oninput="app.handleClientPhone(this)" required
+                            class="w-full bg-gray-50 border border-gray-200 rounded-xl py-4 pr-4 pl-14 text-gray-800 text-lg outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm">
+                        <div id="user-found-badge"
+                            class="hidden absolute right-3 top-1/2 -translate-y-1/2 bg-green-100 text-green-700 text-[10px] font-bold px-3 py-1 rounded-full flex items-center gap-1 animate-fade-in">
+                            <i data-lucide="sparkles" class="w-3 h-3"></i> ¡Te conocemos!
+                        </div>
+                    </div>
+                </div>
+
+                <div id="progressive-content" class="space-y-8">
+
+                    <div id="block-service"
+                        class="hidden opacity-0 transition-all duration-500 transform translate-y-4">
+                        <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">¿Cómo quieres recibir tu pedido?
+                            <span class="text-danger">*</span></label>
+                        <div class="relative">
+                            <select id="c-courier-select" onchange="app.onCourierChange(this.value)"
+                                class="w-full appearance-none bg-gray-50 border border-gray-200 rounded-xl py-4 pl-4 pr-10 text-gray-800 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 cursor-pointer input-transition font-medium shadow-sm">
+                                <option value="" disabled selected>Elige una opción...</option>
+                            </select>
+                            <div
+                                class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-gray-400">
+                                <i data-lucide="chevron-down" class="w-5 h-5"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="dynamic-form-section" class="hidden relative z-40 space-y-6 transition-all duration-500">
+                        <div id="fields-agency" class="hidden space-y-6 animate-fade-in">
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Busca tu Agencia <span
+                                        class="text-danger">*</span></label>
+                                <div class="relative group z-30">
+                                    <i data-lucide="search"
+                                        class="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"></i>
+                                    <input id="c-agency" type="text" onfocus="app.revealStep('block-personal')"
+                                        onblur="app.validateAgencyOnBlur(this)"
+                                        class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl pl-12 pr-10 py-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm"
+                                        placeholder="Ej: Shalom Arequipa..." autocomplete="off"
+                                        oninput="app.searchAgency(this.value)">
+                                    <button type="button" id="btn-clear-agency" onclick="app.clearAgency()"
+                                        class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 p-1 hover:text-danger"><i
+                                            data-lucide="x" class="h-5 w-5"></i></button>
+                                    <div id="agency-results"
+                                        class="hidden absolute left-0 right-0 top-full mt-2 bg-white border border-gray-200 rounded-xl shadow-xl max-h-60 overflow-y-auto z-50 divide-y divide-gray-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">DNI/CE para Recoger <span
+                                        class="text-danger">*</span></label>
+                                <input id="c-dni" type="tel" maxlength="15"
+                                    class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl p-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm"
+                                    placeholder="Número de DNI / CE">
+                            </div>
+                        </div>
+
+                        <div id="fields-home" class="hidden space-y-6 animate-fade-in">
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Distrito <span
+                                        class="text-danger">*</span></label>
+                                <div class="relative group z-30">
+                                    <i data-lucide="map-pin"
+                                        class="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400"></i>
+                                    <input id="c-district" type="text" onfocus="app.revealStep('block-personal')"
+                                        onblur="app.validateDistrictOnBlur(this)"
+                                        class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl pl-12 pr-10 py-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm"
+                                        placeholder="Buscar Distrito..." autocomplete="off"
+                                        oninput="app.searchDistrict(this.value)">
+                                    <button type="button" id="btn-clear-district" onclick="app.clearDistrict()"
+                                        class="hidden absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 p-1 hover:text-danger"><i
+                                            data-lucide="x" class="h-5 w-5"></i></button>
+                                    <div id="district-results"
+                                        class="hidden absolute left-0 right-0 top-full mt-2 bg-white border border-gray-200 rounded-xl shadow-xl max-h-60 overflow-y-auto z-50 divide-y divide-gray-100">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Dirección Exacta <span
+                                        class="text-danger">*</span></label>
+                                <input id="c-address"
+                                    class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl p-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm"
+                                    placeholder="Calle, Av, Número...">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Referencia <span
+                                        class="text-danger">*</span></label>
+                                <input id="c-ref"
+                                    class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl p-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition placeholder-gray-400 font-medium shadow-sm"
+                                    placeholder="Color de casa, frente a...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="block-personal"
+                        class="hidden opacity-0 transition-all duration-500 transform translate-y-4">
+                        <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Nombre y Apellidos <span
+                                class="text-danger">*</span></label>
+                        <input id="c-name" oninput="app.revealStep('block-closing')" required
+                            class="w-full bg-gray-50 border border-gray-200 text-gray-800 rounded-xl p-4 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 input-transition capitalize placeholder-gray-400 font-medium shadow-sm"
+                            placeholder="Nombre Completo">
+                    </div>
+
+                    <div id="block-closing"
+                        class="hidden opacity-0 transition-all duration-500 transform translate-y-4 space-y-8">
+                        <div>
+                            <label id="c-date-label" class="block text-sm font-bold text-gray-700 mb-2 ml-1">¿Cuándo lo
+                                enviamos? <span class="text-danger">*</span></label>
+                            <div class="relative">
+                                <select id="c-date-select"
+                                    class="w-full appearance-none bg-gray-50 border border-gray-200 rounded-xl py-4 pl-4 pr-10 text-gray-800 outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/50 cursor-pointer input-transition font-medium shadow-sm">
+                                    <option value="" disabled selected>Elige fecha...</option>
+                                </select>
+                                <div
+                                    class="absolute inset-y-0 right-0 flex items-center px-4 pointer-events-none text-gray-400">
+                                    <i data-lucide="calendar" class="w-5 h-5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" id="btn-submit-order"
+                        class="w-full bg-[#3B82F6] hover:bg-[#60A5FA] disabled:bg-gray-400 text-white font-bold py-4 rounded-xl shadow-lg transition-all duration-200 transform active:scale-95 disabled:active:scale-100 flex justify-center items-center gap-3 text-lg">
+                        <span id="btn-submit-spinner" class="hidden">
+                            <div class="animate-spin rounded-full h-5 w-5 border-2 border-white border-t-transparent">
+                            </div>
+                        </span>
+                        <span id="btn-submit-text" class="flex items-center gap-3">
+                            Agendar y ver resumen
+                            <i data-lucide="calendar" class="w-6 h-6"></i>
+                        </span>
+                    </button>
+
+                </div>
+            </form>
+
+        </div>
+
+        <div id="success-view"
+            class="hidden flex flex-col items-center justify-center py-10 text-center animate-fade-in flex-1">
+            <div
+                class="w-24 h-24 bg-green-100 rounded-full flex items-center justify-center text-[#25D366] mb-6 shadow-sm">
+                <i data-lucide="check" class="w-12 h-12"></i>
+            </div>
+
+            <h2 class="text-2xl font-bold text-gray-800 mb-2">¡Registro Exitoso!</h2>
+
+            <p class="text-gray-500 text-sm mb-4 max-w-xs mx-auto leading-relaxed">
+                Tu envío ha sido programado correctamente. Verifica los datos y envíalos por chat con el botón verde.
+            </p>
+
+            <div
+                class="w-full max-w-sm mx-auto mb-8 bg-gray-50 border border-gray-200 rounded-xl p-5 text-left shadow-inner">
+                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3 border-b border-gray-200 pb-2">
+                    Resumen</p>
+                <div id="order-summary" class="whitespace-pre-line text-sm text-gray-800 font-medium"></div>
+            </div>
+
+            <button type="button" id="btn-send-whatsapp" onclick="app.sendWhatsApp()"
+                class="w-full max-w-sm mx-auto bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 rounded-xl shadow-lg transition-all duration-200 transform active:scale-95 flex justify-center items-center gap-3 text-lg">
+                Enviar por WhatsApp
+                <i class="fab fa-whatsapp text-2xl"></i>
+            </button>
+
+        </div>
+
+    </main>
+
+    <div class="w-full border-t border-gray-100 bg-gray-50/30 mt-4">
+        <div class="max-w-xl mx-auto px-6 py-3 flex flex-col items-center">
+            <a href="https://wa.me/51904774275?text=Hola%20Latam5S,%20quiero%20este%20*sistema%20para%20mi%20negocio*.%0A%0A*%C2%BFQu%C3%A9%20otras%20funciones%20tiene%20ademas%20del%20formulario?*"
+                target="_blank" rel="noopener noreferrer" class="group text-center">
+
+                <p class="text-[9px] uppercase font-bold text-gray-400 tracking-[0.25em] leading-none">
+                    Formulario Logístico • Creado por Latam5S
+                </p>
+
+                <p
+                    class="text-[11px] text-gray-400 mt-1 transition-colors group-hover:text-gray-600 flex items-center justify-center gap-2 leading-none">
+                    ¿Quieres este sistema?
+                    <span class="font-bold flex items-center gap-1.5">
+                        Contacto Aquí
+                        <i class="fab fa-whatsapp text-base font-bold"></i>
+                    </span>
+                </p>
+            </a>
+        </div>
+    </div>
+
+
+    <div id="error-view"
+        class="hidden fixed inset-0 bg-white z-[9999] flex flex-col items-center justify-center p-8 text-center">
+        <div class="w-16 h-16 bg-red-100 text-red-500 rounded-full flex items-center justify-center mb-4"><i
+                data-lucide="alert-triangle" class="w-8 h-8"></i></div>
+        <h1 class="text-xl font-bold text-gray-800 mb-2">Enlace no válido</h1>
+        <p class="text-gray-500 text-sm">No hemos podido identificar la tienda. Verifica el enlace.</p>
+    </div>
+
+</body>
+
+</html>
