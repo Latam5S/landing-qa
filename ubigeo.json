@@ -1,0 +1,9462 @@
+[
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Chachapoyas"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Asunción"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Balsas"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Cheto"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Chiliquin"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Chuquibamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Granada"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Huancas"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "La Jalca"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Leimebamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Levanto"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Magdalena"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Mariscal Castilla"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Molinopampa"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Montevideo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Olleros"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Quinjalca"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "San Francisco de Daguas"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "San Isidro de Maino"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Soloco"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Chachapoyas",
+    "district": "Sonche"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "Bagua"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "Aramango"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "Copallin"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "El Parco"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "Imaza"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bagua",
+    "district": "La Peca"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Jumbilla"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Chisquilla"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Churuja"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Corosha"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Cuispes"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Florida"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Jazan"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Recta"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "San Carlos"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Shipasbamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Valera"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Bongará",
+    "district": "Yambrasbamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Condorcanqui",
+    "district": "Nieva"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Condorcanqui",
+    "district": "El Cenepa"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Condorcanqui",
+    "district": "Río Santiago"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Lamud"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Camporredondo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Cocabamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Colcamar"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Conila"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Inguilpata"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Longuita"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Lonya Chico"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Luya"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Luya Viejo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "María"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Ocalli"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Ocumal"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Pisuquia"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Providencia"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "San Cristóbal"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "San Francisco de Yeso"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "San Jerónimo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "San Juan de Lopecancha"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Santa Catalina"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Santo Tomas"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Tingo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Luya",
+    "district": "Trita"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "San Nicolás"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Chirimoto"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Cochamal"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Huambo"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Limabamba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Longar"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Mariscal Benavides"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Milpuc"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Omia"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Totora"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Rodríguez de Mendoza",
+    "district": "Vista Alegre"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Bagua Grande"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Cajaruro"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Cumba"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "El Milagro"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Jamalca"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Lonya Grande"
+  },
+  {
+    "department": "Amazonas",
+    "province": "Utcubamba",
+    "district": "Yamon"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Huaraz"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Cochabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Colcabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Huanchay"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Independencia"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Jangas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "La Libertad"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Olleros"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Pampas Grande"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Pariacoto"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Pira"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaraz",
+    "district": "Tarica"
+  },
+  {
+    "department": "Áncash",
+    "province": "Aija",
+    "district": "Aija"
+  },
+  {
+    "department": "Áncash",
+    "province": "Aija",
+    "district": "Coris"
+  },
+  {
+    "department": "Áncash",
+    "province": "Aija",
+    "district": "Huacllan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Aija",
+    "district": "La Merced"
+  },
+  {
+    "department": "Áncash",
+    "province": "Aija",
+    "district": "Succha"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "Llamellin"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "Aczo"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "Chaccho"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "Chingas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "Mirgas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Antonio Raymondi",
+    "district": "San Juan de Rontoy"
+  },
+  {
+    "department": "Áncash",
+    "province": "Asunción",
+    "district": "Chacas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Asunción",
+    "district": "Acochaca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Chiquian"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Abelardo Pardo Lezameta"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Antonio Raymondi"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Aquia"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Cajacay"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Canis"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Colquioc"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Huallanca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Huasta"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Huayllacayan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "La Primavera"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Mangas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Pacllon"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "San Miguel de Corpanqui"
+  },
+  {
+    "department": "Áncash",
+    "province": "Bolognesi",
+    "district": "Ticllos"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Carhuaz"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Acopampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Amashca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Anta"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Ataquero"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Marcara"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Pariahuanca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "San Miguel de Aco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Shilla"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Tinco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carhuaz",
+    "district": "Yungar"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carlos Fermín Fitzcarrald",
+    "district": "San Luis"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carlos Fermín Fitzcarrald",
+    "district": "San Nicolás"
+  },
+  {
+    "department": "Áncash",
+    "province": "Carlos Fermín Fitzcarrald",
+    "district": "Yauya"
+  },
+  {
+    "department": "Áncash",
+    "province": "Casma",
+    "district": "Casma"
+  },
+  {
+    "department": "Áncash",
+    "province": "Casma",
+    "district": "Buena Vista Alta"
+  },
+  {
+    "department": "Áncash",
+    "province": "Casma",
+    "district": "Comandante Noel"
+  },
+  {
+    "department": "Áncash",
+    "province": "Casma",
+    "district": "Yautan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Corongo"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Aco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Bambas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Cusca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "La Pampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Yanac"
+  },
+  {
+    "department": "Áncash",
+    "province": "Corongo",
+    "district": "Yupan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Huari"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Anra"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Cajay"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Chavin de Huantar"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Huacachi"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Huacchis"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Huachis"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Huantar"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Masin"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Paucas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Ponto"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Rahuapampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Rapayan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "San Marcos"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "San Pedro de Chana"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huari",
+    "district": "Uco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huarmey",
+    "district": "Huarmey"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huarmey",
+    "district": "Cochapeti"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huarmey",
+    "district": "Culebras"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huarmey",
+    "district": "Huayan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huarmey",
+    "district": "Malvas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Caraz"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Huallanca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Huata"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Huaylas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Mato"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Pamparomas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Pueblo Libre"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Santa Cruz"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Santo Toribio"
+  },
+  {
+    "department": "Áncash",
+    "province": "Huaylas",
+    "district": "Yuracmarca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Piscobamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Casca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Eleazar Guzmán Barron"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Fidel Olivas Escudero"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Llama"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Llumpa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Lucma"
+  },
+  {
+    "department": "Áncash",
+    "province": "Mariscal Luzuriaga",
+    "district": "Musga"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Ocros"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Acas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Cajamarquilla"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Carhuapampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Cochas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Congas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Llipa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "San Cristóbal de Rajan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "San Pedro"
+  },
+  {
+    "department": "Áncash",
+    "province": "Ocros",
+    "district": "Santiago de Chilcas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Cabana"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Bolognesi"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Conchucos"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Huacaschuque"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Huandoval"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Lacabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Llapo"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Pallasca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Pampas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pallasca",
+    "district": "Tauca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pomabamba",
+    "district": "Pomabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pomabamba",
+    "district": "Huayllan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pomabamba",
+    "district": "Parobamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Pomabamba",
+    "district": "Quinuabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Recuay"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Catac"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Cotaparaco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Huayllapampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Llacllin"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Marca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Pampas Chico"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Pararin"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Tapacocha"
+  },
+  {
+    "department": "Áncash",
+    "province": "Recuay",
+    "district": "Ticapampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Chimbote"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Cáceres del Perú"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Coishco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Macate"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Moro"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Nepeña"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Samanco"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Santa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Santa",
+    "district": "Nuevo Chimbote"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Sihuas"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Acobamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Alfonso Ugarte"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Cashapampa"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Chingalpo"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Huayllabamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Quiches"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Ragash"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "San Juan"
+  },
+  {
+    "department": "Áncash",
+    "province": "Sihuas",
+    "district": "Sicsibamba"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Yungay"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Cascapara"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Mancos"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Matacoto"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Quillo"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Ranrahirca"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Shupluy"
+  },
+  {
+    "department": "Áncash",
+    "province": "Yungay",
+    "district": "Yanama"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Abancay"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Chacoche"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Circa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Curahuasi"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Huanipaca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Lambrama"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Pichirhua"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "San Pedro de Cachora"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Abancay",
+    "district": "Tamburco"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Andahuaylas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Andarapa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Chiara"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Huancarama"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Huancaray"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Huayana"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Kishuara"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Pacobamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Pacucha"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Pampachiri"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Pomacocha"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "San Antonio de Cachi"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "San Jerónimo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "San Miguel de Chaccrampa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Santa María de Chicmo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Talavera"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Tumay Huaraca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Turpo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "Kaquiabamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Andahuaylas",
+    "district": "José María Arguedas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Antabamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "El Oro"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Huaquirca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Juan Espinoza Medrano"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Oropesa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Pachaconas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Antabamba",
+    "district": "Sabaino"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Chalhuanca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Capaya"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Caraybamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Chapimarca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Colcabamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Cotaruse"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Ihuayllo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Justo Apu Sahuaraura"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Lucre"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Pocohuanca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "San Juan de Chacña"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Sañayca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Soraya"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Tapairihua"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Tintay"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Toraya"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Aymaraes",
+    "district": "Yanaca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Tambobamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Cotabambas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Coyllurqui"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Haquira"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Mara"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Cotabambas",
+    "district": "Challhuahuacho"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Chincheros"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Anco_Huallo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Cocharcas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Huaccana"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Ocobamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Ongoy"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Uranmarca"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Ranracancha"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Rocchacc"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "El Porvenir"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Los Chankas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Chincheros",
+    "district": "Ahuayro"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Chuquibambilla"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Curpahuasi"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Gamarra"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Huayllati"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Mamara"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Micaela Bastidas"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Pataypampa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Progreso"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "San Antonio"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Turpay"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Vilcabamba"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Virundo"
+  },
+  {
+    "department": "Apurímac",
+    "province": "Grau",
+    "district": "Curasco"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Arequipa"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Alto Selva Alegre"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Cayma"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Cerro Colorado"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Characato"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Chiguata"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Jacobo Hunter"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "La Joya"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Mariano Melgar"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Miraflores"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Mollebaya"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Paucarpata"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Pocsi"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Polobaya"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Quequeña"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Sabandia"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Sachaca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "San Juan de Siguas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "San Juan de Tarucani"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Santa Isabel de Siguas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Santa Rita de Siguas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Socabaya"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Tiabaya"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Uchumayo"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Vitor"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Yanahuara"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Yarabamba"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "Yura"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Arequipa",
+    "district": "José Luis Bustamante Y Rivero"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Camaná"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "José María Quimper"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Mariano Nicolás Valcárcel"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Mariscal Cáceres"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Nicolás de Pierola"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Ocoña"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Quilca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Camaná",
+    "district": "Samuel Pastor"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Caravelí"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Acarí"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Atico"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Atiquipa"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Bella Unión"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Cahuacho"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Chala"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Chaparra"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Huanuhuanu"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Jaqui"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Lomas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Quicacha"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caravelí",
+    "district": "Yauca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Aplao"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Andagua"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Ayo"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Chachas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Chilcaymarca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Choco"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Huancarqui"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Machaguay"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Orcopampa"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Pampacolca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Tipan"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Uñon"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Uraca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Castilla",
+    "district": "Viraco"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Chivay"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Achoma"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Cabanaconde"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Callalli"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Caylloma"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Coporaque"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Huambo"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Huanca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Ichupampa"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Lari"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Lluta"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Maca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Madrigal"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "San Antonio de Chuca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Sibayo"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Tapay"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Tisco"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Tuti"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Yanque"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Caylloma",
+    "district": "Majes"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Chuquibamba"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Andaray"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Cayarani"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Chichas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Iray"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Río Grande"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Salamanca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Condesuyos",
+    "district": "Yanaquihua"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Mollendo"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Cocachacra"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Dean Valdivia"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Islay"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Mejia"
+  },
+  {
+    "department": "Arequipa",
+    "province": "Islay",
+    "district": "Punta de Bombón"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Cotahuasi"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Alca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Charcana"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Huaynacotas"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Pampamarca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Puyca"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Quechualla"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Sayla"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Tauria"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Tomepampa"
+  },
+  {
+    "department": "Arequipa",
+    "province": "La Uniòn",
+    "district": "Toro"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Ayacucho"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Acocro"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Acos Vinchos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Carmen Alto"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Chiara"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Ocros"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Pacaycasa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Quinua"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "San José de Ticllas"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "San Juan Bautista"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Santiago de Pischa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Socos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Tambillo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Vinchos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Jesús Nazareno"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huamanga",
+    "district": "Andrés Avelino Cáceres Dorregaray"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "Cangallo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "Chuschi"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "Los Morochucos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "María Parado de Bellido"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "Paras"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Cangallo",
+    "district": "Totos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanca Sancos",
+    "district": "Sancos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanca Sancos",
+    "district": "Carapo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanca Sancos",
+    "district": "Sacsamarca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanca Sancos",
+    "district": "Santiago de Lucanamarca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Huanta"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Ayahuanco"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Huamanguilla"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Iguain"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Luricocha"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Santillana"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Sivia"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Llochegua"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Canayre"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Uchuraccay"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Pucacolpa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Chaca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Huanta",
+    "district": "Putis"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "San Miguel"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Anco"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Ayna"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Chilcas"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Chungui"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Luis Carranza"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Tambo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Samugari"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Anchihuay"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Oronccoy"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Unión Progreso"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Rio Magdalena"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Ninabamba"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "La Mar",
+    "district": "Patibamba"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Puquio"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Aucara"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Cabana"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Carmen Salcedo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Chaviña"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Chipao"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Huac-Huas"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Laramate"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Leoncio Prado"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Llauta"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Lucanas"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Ocaña"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Otoca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Saisa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "San Cristóbal"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "San Juan"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "San Pedro"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "San Pedro de Palco"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Sancos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Santa Ana de Huaycahuacho"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Lucanas",
+    "district": "Santa Lucia"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Coracora"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Chumpi"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Coronel Castañeda"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Pacapausa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Pullo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Puyusca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "San Francisco de Rivacayco"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Parinacochas",
+    "district": "Upahuacho"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Pausa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Colta"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Corculla"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Lampa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Marcabamba"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Oyolo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Pararca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "San Javier de Alpabamba"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "San José de Ushua"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Pàucar del Sara Sara",
+    "district": "Sara Sara"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Querobamba"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Belén"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Chalcos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Chilcayoc"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Huacaña"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Morcolla"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Paico"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "San Pedro de Larcay"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "San Salvador de Quije"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Santiago de Paucaray"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Sucre",
+    "district": "Soras"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Huancapi"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Alcamenca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Apongo"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Asquipata"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Canaria"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Cayara"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Colca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Huamanquiquia"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Huancaraylla"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Hualla"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Sarhua"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Víctor Fajardo",
+    "district": "Vilcanchos"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Vilcas Huaman"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Accomarca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Carhuanca"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Concepción"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Huambalpa"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Independencia"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Saurama"
+  },
+  {
+    "department": "Ayacucho",
+    "province": "Vilcas Huamán",
+    "district": "Vischongo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Cajamarca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Asunción"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Chetilla"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Cospan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Encañada"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Jesús"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Llacanora"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Los Baños del Inca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Magdalena"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Matara"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "Namora"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajamarca",
+    "district": "San Juan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajabamba",
+    "district": "Cajabamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajabamba",
+    "district": "Cachachi"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajabamba",
+    "district": "Condebamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cajabamba",
+    "district": "Sitacocha"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Celendín"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Chumuch"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Cortegana"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Huasmin"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Jorge Chávez"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "José Gálvez"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Miguel Iglesias"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Oxamarca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Sorochuco"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Sucre"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "Utco"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Celendín",
+    "district": "La Libertad de Pallan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Chota"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Anguia"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Chadin"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Chiguirip"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Chimban"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Choropampa"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Cochabamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Conchan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Huambos"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Lajas"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Llama"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Miracosta"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Paccha"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Pion"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Querocoto"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "San Juan de Licupis"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Tacabamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Tocmoche"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Chota",
+    "district": "Chalamarca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Contumaza"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Chilete"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Cupisnique"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Guzmango"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "San Benito"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Santa Cruz de Toledo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Tantarica"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Contumazá",
+    "district": "Yonan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Cutervo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Callayuc"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Choros"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Cujillo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "La Ramada"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Pimpingos"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Querocotillo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "San Andrés de Cutervo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "San Juan de Cutervo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "San Luis de Lucma"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Santa Cruz"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Santo Domingo de la Capilla"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Santo Tomas"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Socota"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Cutervo",
+    "district": "Toribio Casanova"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Hualgayoc",
+    "district": "Bambamarca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Hualgayoc",
+    "district": "Chugur"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Hualgayoc",
+    "district": "Hualgayoc"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Jaén"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Bellavista"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Chontali"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Colasay"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Huabal"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Las Pirias"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Pomahuaca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Pucara"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Sallique"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "San Felipe"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "San José del Alto"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Jaén",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "San Ignacio"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "Chirinos"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "Huarango"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "La Coipa"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "Namballe"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "San José de Lourdes"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Ignacio",
+    "district": "Tabaconas"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "Pedro Gálvez"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "Chancay"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "Eduardo Villanueva"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "Gregorio Pita"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "Ichocan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "José Manuel Quiroz"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Marcos",
+    "district": "José Sabogal"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "San Miguel"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Bolívar"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Calquis"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Catilluc"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "El Prado"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "La Florida"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Llapa"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Nanchoc"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Niepos"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "San Gregorio"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "San Silvestre de Cochan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Tongod"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Miguel",
+    "district": "Unión Agua Blanca"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Pablo",
+    "district": "San Pablo"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Pablo",
+    "district": "San Bernardino"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Pablo",
+    "district": "San Luis"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "San Pablo",
+    "district": "Tumbaden"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Santa Cruz"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Andabamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Catache"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Chancaybaños"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "La Esperanza"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Ninabamba"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Pulan"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Saucepampa"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Sexi"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Uticyacu"
+  },
+  {
+    "department": "Cajamarca",
+    "province": "Santa Cruz",
+    "district": "Yauyucan"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "Callao"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "Bellavista"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "Carmen de la Legua Reynoso"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "La Perla"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "La Punta"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "Ventanilla"
+  },
+  {
+    "department": "Callao",
+    "province": "Prov. Const. del Callao",
+    "district": "Mi Perú"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Cusco"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Ccorca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Poroy"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "San Jerónimo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "San Sebastian"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Santiago"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Saylla"
+  },
+  {
+    "department": "Cusco",
+    "province": "Cusco",
+    "district": "Wanchaq"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Acomayo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Acopia"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Acos"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Mosoc Llacta"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Pomacanchi"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Rondocan"
+  },
+  {
+    "department": "Cusco",
+    "province": "Acomayo",
+    "district": "Sangarara"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Anta"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Ancahuasi"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Cachimayo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Chinchaypujio"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Huarocondo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Limatambo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Mollepata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Pucyura"
+  },
+  {
+    "department": "Cusco",
+    "province": "Anta",
+    "district": "Zurite"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Calca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Coya"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Lamay"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Lares"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Pisac"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "San Salvador"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Taray"
+  },
+  {
+    "department": "Cusco",
+    "province": "Calca",
+    "district": "Yanatile"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Yanaoca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Checca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Kunturkanki"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Langui"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Layo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Pampamarca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Quehue"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canas",
+    "district": "Tupac Amaru"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Sicuani"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Checacupe"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Combapata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Marangani"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Pitumarca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "San Pablo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "San Pedro"
+  },
+  {
+    "department": "Cusco",
+    "province": "Canchis",
+    "district": "Tinta"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Santo Tomas"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Capacmarca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Chamaca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Colquemarca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Livitaca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Llusco"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Quiñota"
+  },
+  {
+    "department": "Cusco",
+    "province": "Chumbivilcas",
+    "district": "Velille"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Espinar"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Condoroma"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Coporaque"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Ocoruro"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Pallpata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Pichigua"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Suyckutambo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Espinar",
+    "district": "Alto Pichigua"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Santa Ana"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Echarate"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Huayopata"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Maranura"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Ocobamba"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Quellouno"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Kimbiri"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Santa Teresa"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Vilcabamba"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Pichari"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Inkawasi"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Villa Virgen"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Villa Kintiarina"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Megantoni"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Kumpirushiato"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Cielo Punco"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Manitea"
+  },
+  {
+    "department": "Cusco",
+    "province": "La Convención",
+    "district": "Unión Ashaninka"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Paruro"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Accha"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Ccapi"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Colcha"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Huanoquite"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Omacha"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Paccaritambo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Pillpinto"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paruro",
+    "district": "Yaurisque"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Paucartambo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Caicay"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Challabamba"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Colquepata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Huancarani"
+  },
+  {
+    "department": "Cusco",
+    "province": "Paucartambo",
+    "district": "Kosñipata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Urcos"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Andahuaylillas"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Camanti"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Ccarhuayo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Ccatca"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Cusipata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Huaro"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Lucre"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Marcapata"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Ocongate"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Oropesa"
+  },
+  {
+    "department": "Cusco",
+    "province": "Quispicanchi",
+    "district": "Quiquijana"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Urubamba"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Chinchero"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Huayllabamba"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Machupicchu"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Maras"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Ollantaytambo"
+  },
+  {
+    "department": "Cusco",
+    "province": "Urubamba",
+    "district": "Yucay"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Huancavelica"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Acobambilla"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Acoria"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Conayca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Cuenca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Huachocolpa"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Huayllahuara"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Izcuchaca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Laria"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Manta"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Mariscal Cáceres"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Moya"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Nuevo Occoro"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Palca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Pilchaca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Vilca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Yauli"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Ascensión"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huancavelica",
+    "district": "Huando"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Acobamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Andabamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Anta"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Caja"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Marcas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Paucara"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Pomacocha"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Acobamba",
+    "district": "Rosario"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Lircay"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Anchonga"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Callanmarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Ccochaccasa"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Chincho"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Congalla"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Huanca-Huanca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Huayllay Grande"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Julcamarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "San Antonio de Antaparco"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Santo Tomas de Pata"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Angaraes",
+    "district": "Secclla"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Castrovirreyna"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Arma"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Aurahua"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Capillas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Chupamarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Cocas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Huachos"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Huamatambo"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Mollepampa"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "San Juan"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Santa Ana"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Tantara"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Castrovirreyna",
+    "district": "Ticrapo"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Churcampa"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Anco"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Chinchihuasi"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "El Carmen"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "La Merced"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Locroja"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Paucarbamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "San Miguel de Mayocc"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "San Pedro de Coris"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Pachamarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Churcampa",
+    "district": "Cosme"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Huaytara"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Ayavi"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Córdova"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Huayacundo Arma"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Laramarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Ocoyo"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Pilpichaca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Querco"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Quito-Arma"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "San Antonio de Cusicancha"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "San Francisco de Sangayaico"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "San Isidro"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Santiago de Chocorvos"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Santiago de Quirahuara"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Santo Domingo de Capillas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Huaytará",
+    "district": "Tambo"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Pampas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Acostambo"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Acraquia"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Ahuaycha"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Colcabamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Daniel Hernández"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Huachocolpa"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Huaribamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Ñahuimpuquio"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Pazos"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Quishuar"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Salcabamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Salcahuasi"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "San Marcos de Rocchac"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Surcubamba"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Tintay Puncu"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Quichuas"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Andaymarca"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Roble"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Pichos"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Santiago de Tucuma"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Lambras"
+  },
+  {
+    "department": "Huancavelica",
+    "province": "Tayacaja",
+    "district": "Cochabamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Huanuco"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Amarilis"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Chinchao"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Churubamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Margos"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Quisqui (Kichki)"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "San Francisco de Cayran"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "San Pedro de Chaulan"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Santa María del Valle"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Yarumayo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Pillco Marca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "Yacus"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huánuco",
+    "district": "San Pablo de Pillao"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Ambo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Cayna"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Colpas"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Conchamarca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Huacar"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "San Francisco"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "San Rafael"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Ambo",
+    "district": "Tomay Kichwa"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "La Unión"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Chuquis"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Marías"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Pachas"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Quivilla"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Ripan"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Shunqui"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Sillapata"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Dos de Mayo",
+    "district": "Yanas"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huacaybamba",
+    "district": "Huacaybamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huacaybamba",
+    "district": "Canchabamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huacaybamba",
+    "district": "Cochabamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huacaybamba",
+    "district": "Pinra"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Llata"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Arancay"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Chavín de Pariarca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Jacas Grande"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Jircan"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Miraflores"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Monzón"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Punchao"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Puños"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Singa"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Huamalíes",
+    "district": "Tantamayo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Rupa-Rupa"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Daniel Alomía Robles"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Hermílio Valdizan"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "José Crespo y Castillo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Luyando"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Mariano Damaso Beraun"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Pucayacu"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Castillo Grande"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Pueblo Nuevo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Leoncio Prado",
+    "district": "Santo Domingo de Anda"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Marañón",
+    "district": "Huacrachuco"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Marañón",
+    "district": "Cholon"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Marañón",
+    "district": "San Buenaventura"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Marañón",
+    "district": "La Morada"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Marañón",
+    "district": "Santa Rosa de Alto Yanajanca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Pachitea",
+    "district": "Panao"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Pachitea",
+    "district": "Chaglla"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Pachitea",
+    "district": "Molino"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Pachitea",
+    "district": "Umari"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Puerto Inca",
+    "district": "Puerto Inca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Puerto Inca",
+    "district": "Codo del Pozuzo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Puerto Inca",
+    "district": "Honoria"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Puerto Inca",
+    "district": "Tournavista"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Puerto Inca",
+    "district": "Yuyapichis"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "Jesús"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "Baños"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "Jivia"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "Queropalca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "Rondos"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "San Francisco de Asís"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Lauricocha",
+    "district": "San Miguel de Cauri"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Chavinillo"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Cahuac"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Chacabamba"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Aparicio Pomares"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Jacas Chico"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Obas"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Pampamarca"
+  },
+  {
+    "department": "Huánuco",
+    "province": "Yarowilca",
+    "district": "Choras"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Ica"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "La Tinguiña"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Los Aquijes"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Ocucaje"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Pachacutec"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Parcona"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Pueblo Nuevo"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Salas"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "San José de Los Molinos"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "San Juan Bautista"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Santiago"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Subtanjalla"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Tate"
+  },
+  {
+    "department": "Ica",
+    "province": "Ica",
+    "district": "Yauca del Rosario"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Chincha Alta"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Alto Laran"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Chavin"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Chincha Baja"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "El Carmen"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Grocio Prado"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Pueblo Nuevo"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "San Juan de Yanac"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "San Pedro de Huacarpana"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Sunampe"
+  },
+  {
+    "department": "Ica",
+    "province": "Chincha",
+    "district": "Tambo de Mora"
+  },
+  {
+    "department": "Ica",
+    "province": "Nasca",
+    "district": "Nasca"
+  },
+  {
+    "department": "Ica",
+    "province": "Nasca",
+    "district": "Changuillo"
+  },
+  {
+    "department": "Ica",
+    "province": "Nasca",
+    "district": "El Ingenio"
+  },
+  {
+    "department": "Ica",
+    "province": "Nasca",
+    "district": "Marcona"
+  },
+  {
+    "department": "Ica",
+    "province": "Nasca",
+    "district": "Vista Alegre"
+  },
+  {
+    "department": "Ica",
+    "province": "Palpa",
+    "district": "Palpa"
+  },
+  {
+    "department": "Ica",
+    "province": "Palpa",
+    "district": "Llipata"
+  },
+  {
+    "department": "Ica",
+    "province": "Palpa",
+    "district": "Río Grande"
+  },
+  {
+    "department": "Ica",
+    "province": "Palpa",
+    "district": "Santa Cruz"
+  },
+  {
+    "department": "Ica",
+    "province": "Palpa",
+    "district": "Tibillo"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Pisco"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Huancano"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Humay"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Independencia"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Paracas"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "San Andrés"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "San Clemente"
+  },
+  {
+    "department": "Ica",
+    "province": "Pisco",
+    "district": "Tupac Amaru Inca"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Huancayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Carhuacallanga"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Chacapampa"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Chicche"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Chilca"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Chongos Alto"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Chupuro"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Colca"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Cullhuas"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "El Tambo"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Huacrapuquio"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Hualhuas"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Huancan"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Huasicancha"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Huayucachi"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Ingenio"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Pariahuanca"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Pilcomayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Pucara"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Quichuay"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Quilcas"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "San Agustín"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "San Jerónimo de Tunan"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Saño"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Sapallanga"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Sicaya"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Santo Domingo de Acobamba"
+  },
+  {
+    "department": "Junín",
+    "province": "Huancayo",
+    "district": "Viques"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Concepción"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Aco"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Andamarca"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Chambara"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Cochas"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Comas"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Heroínas Toledo"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Manzanares"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Mariscal Castilla"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Matahuasi"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Mito"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Nueve de Julio"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Orcotuna"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "San José de Quero"
+  },
+  {
+    "department": "Junín",
+    "province": "Concepción",
+    "district": "Santa Rosa de Ocopa"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "Chanchamayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "Perene"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "Pichanaqui"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "San Luis de Shuaro"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "San Ramón"
+  },
+  {
+    "department": "Junín",
+    "province": "Chanchamayo",
+    "district": "Vitoc"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Jauja"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Acolla"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Apata"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Ataura"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Canchayllo"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Curicaca"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "El Mantaro"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Huamali"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Huaripampa"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Huertas"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Janjaillo"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Julcán"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Leonor Ordóñez"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Llocllapampa"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Marco"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Masma"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Masma Chicche"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Molinos"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Monobamba"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Muqui"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Muquiyauyo"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Paca"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Paccha"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Pancan"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Parco"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Pomacancha"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Ricran"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "San Lorenzo"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "San Pedro de Chunan"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Sausa"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Sincos"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Tunan Marca"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Yauli"
+  },
+  {
+    "department": "Junín",
+    "province": "Jauja",
+    "district": "Yauyos"
+  },
+  {
+    "department": "Junín",
+    "province": "Junín",
+    "district": "Junin"
+  },
+  {
+    "department": "Junín",
+    "province": "Junín",
+    "district": "Carhuamayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Junín",
+    "district": "Ondores"
+  },
+  {
+    "department": "Junín",
+    "province": "Junín",
+    "district": "Ulcumayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Satipo"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Coviriali"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Llaylla"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Mazamari"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Pampa Hermosa"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Pangoa"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Río Negro"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Río Tambo"
+  },
+  {
+    "department": "Junín",
+    "province": "Satipo",
+    "district": "Vizcatán del Ene"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Tarma"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Acobamba"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Huaricolca"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Huasahuasi"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "La Unión"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Palca"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Palcamayo"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "San Pedro de Cajas"
+  },
+  {
+    "department": "Junín",
+    "province": "Tarma",
+    "district": "Tapo"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "La Oroya"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Chacapalpa"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Huay-Huay"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Marcapomacocha"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Morococha"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Paccha"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Santa Bárbara de Carhuacayan"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Santa Rosa de Sacco"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Suitucancha"
+  },
+  {
+    "department": "Junín",
+    "province": "Yauli",
+    "district": "Yauli"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Chupaca"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Ahuac"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Chongos Bajo"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Huachac"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Huamancaca Chico"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "San Juan de Iscos"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "San Juan de Jarpa"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Tres de Diciembre"
+  },
+  {
+    "department": "Junín",
+    "province": "Chupaca",
+    "district": "Yanacancha"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Trujillo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "El Porvenir"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Florencia de Mora"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Huanchaco"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "La Esperanza"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Laredo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Moche"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Poroto"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Salaverry"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Simbal"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Victor Larco Herrera"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Trujillo",
+    "district": "Alto Trujillo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Ascope"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Chicama"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Chocope"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Magdalena de Cao"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Paijan"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Rázuri"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Santiago de Cao"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Ascope",
+    "district": "Casa Grande"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Bolívar"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Bambamarca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Condormarca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Longotea"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Uchumarca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Bolívar",
+    "district": "Ucuncha"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Chepén",
+    "district": "Chepen"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Chepén",
+    "district": "Pacanga"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Chepén",
+    "district": "Pueblo Nuevo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Julcán",
+    "district": "Julcan"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Julcán",
+    "district": "Calamarca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Julcán",
+    "district": "Carabamba"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Julcán",
+    "district": "Huaso"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Otuzco"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Agallpampa"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Charat"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Huaranchal"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "La Cuesta"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Mache"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Paranday"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Salpo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Sinsicap"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Otuzco",
+    "district": "Usquil"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pacasmayo",
+    "district": "San Pedro de Lloc"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pacasmayo",
+    "district": "Guadalupe"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pacasmayo",
+    "district": "Jequetepeque"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pacasmayo",
+    "district": "Pacasmayo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pacasmayo",
+    "district": "San José"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Tayabamba"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Buldibuyo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Chillia"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Huancaspata"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Huaylillas"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Huayo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Ongon"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Parcoy"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Pataz"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Pias"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Santiago de Challas"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Taurija"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Pataz",
+    "district": "Urpay"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Huamachuco"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Chugay"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Cochorco"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Curgos"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Marcabal"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Sanagoran"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Sarin"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Sánchez Carrión",
+    "district": "Sartimbamba"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Santiago de Chuco"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Angasmarca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Cachicadan"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Mollebamba"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Mollepata"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Quiruvilca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Santa Cruz de Chuca"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Santiago de Chuco",
+    "district": "Sitabamba"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Gran Chimú",
+    "district": "Cascas"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Gran Chimú",
+    "district": "Lucma"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Gran Chimú",
+    "district": "Marmot"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Gran Chimú",
+    "district": "Sayapullo"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Virú",
+    "district": "Viru"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Virú",
+    "district": "Chao"
+  },
+  {
+    "department": "La Libertad",
+    "province": "Virú",
+    "district": "Guadalupito"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Chiclayo"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Chongoyape"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Eten"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Eten Puerto"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "José Leonardo Ortiz"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "La Victoria"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Lagunas"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Monsefu"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Nueva Arica"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Oyotun"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Picsi"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Pimentel"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Reque"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Saña"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Cayalti"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Patapo"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Pomalca"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Pucala"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Chiclayo",
+    "district": "Tuman"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Ferreñafe"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Cañaris"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Incahuasi"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Manuel Antonio Mesones Muro"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Pitipo"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Ferreñafe",
+    "district": "Pueblo Nuevo"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Lambayeque"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Chochope"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Illimo"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Jayanca"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Mochumi"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Morrope"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Motupe"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Olmos"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Pacora"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Salas"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "San José"
+  },
+  {
+    "department": "Lambayeque",
+    "province": "Lambayeque",
+    "district": "Tucume"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Lima"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Ancón"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Ate"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Barranco"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Breña"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Carabayllo"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Chaclacayo"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Chorrillos"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Cieneguilla"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Comas"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "El Agustino"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Independencia"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Jesús María"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "La Molina"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "La Victoria"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Lince"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Los Olivos"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Lurigancho"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Lurin"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Magdalena del Mar"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Pueblo Libre"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Miraflores"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Pachacamac"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Pucusana"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Puente Piedra"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Punta Hermosa"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Punta Negra"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Rímac"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Bartolo"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Borja"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Isidro"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Juan de Lurigancho"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Juan de Miraflores"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Luis"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Martín de Porres"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "San Miguel"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Santa Anita"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Santa María del Mar"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Santiago de Surco"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Surquillo"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Villa El Salvador"
+  },
+  {
+    "department": "Lima",
+    "province": "Lima",
+    "district": "Villa María del Triunfo"
+  },
+  {
+    "department": "Lima",
+    "province": "Barranca",
+    "district": "Barranca"
+  },
+  {
+    "department": "Lima",
+    "province": "Barranca",
+    "district": "Paramonga"
+  },
+  {
+    "department": "Lima",
+    "province": "Barranca",
+    "district": "Pativilca"
+  },
+  {
+    "department": "Lima",
+    "province": "Barranca",
+    "district": "Supe"
+  },
+  {
+    "department": "Lima",
+    "province": "Barranca",
+    "district": "Supe Puerto"
+  },
+  {
+    "department": "Lima",
+    "province": "Cajatambo",
+    "district": "Cajatambo"
+  },
+  {
+    "department": "Lima",
+    "province": "Cajatambo",
+    "district": "Copa"
+  },
+  {
+    "department": "Lima",
+    "province": "Cajatambo",
+    "district": "Gorgor"
+  },
+  {
+    "department": "Lima",
+    "province": "Cajatambo",
+    "district": "Huancapon"
+  },
+  {
+    "department": "Lima",
+    "province": "Cajatambo",
+    "district": "Manas"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Canta"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Arahuay"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Huamantanga"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Huaros"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Lachaqui"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "San Buenaventura"
+  },
+  {
+    "department": "Lima",
+    "province": "Canta",
+    "district": "Santa Rosa de Quives"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "San Vicente de Cañete"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Asia"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Calango"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Cerro Azul"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Chilca"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Coayllo"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Imperial"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Lunahuana"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Mala"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Nuevo Imperial"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Pacaran"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Quilmana"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "San Antonio"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "San Luis"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Santa Cruz de Flores"
+  },
+  {
+    "department": "Lima",
+    "province": "Cañete",
+    "district": "Zúñiga"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Huaral"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Atavillos Alto"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Atavillos Bajo"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Aucallama"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Chancay"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Ihuari"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Lampian"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Pacaraos"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "San Miguel de Acos"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Santa Cruz de Andamarca"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Sumbilca"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaral",
+    "district": "Veintisiete de Noviembre"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Matucana"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Antioquia"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Callahuanca"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Carampoma"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Chicla"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Cuenca"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Huachupampa"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Huanza"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Huarochiri"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Lahuaytambo"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Langa"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Laraos"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Mariatana"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Ricardo Palma"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Andrés de Tupicocha"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Antonio"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Bartolomé"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Damian"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Juan de Iris"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Juan de Tantaranche"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Lorenzo de Quinti"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Mateo"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Mateo de Otao"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Pedro de Casta"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "San Pedro de Huancayre"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Sangallaya"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Santa Cruz de Cocachacra"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Santa Eulalia"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Santiago de Anchucaya"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Santiago de Tuna"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Santo Domingo de Los Olleros"
+  },
+  {
+    "department": "Lima",
+    "province": "Huarochirí",
+    "district": "Surco"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Huacho"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Ambar"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Caleta de Carquin"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Checras"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Hualmay"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Huaura"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Leoncio Prado"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Paccho"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Santa Leonor"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Santa María"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Sayan"
+  },
+  {
+    "department": "Lima",
+    "province": "Huaura",
+    "district": "Vegueta"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Oyon"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Andajes"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Caujul"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Cochamarca"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Navan"
+  },
+  {
+    "department": "Lima",
+    "province": "Oyón",
+    "district": "Pachangara"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Yauyos"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Alis"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Allauca"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Ayaviri"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Azángaro"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Cacra"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Carania"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Catahuasi"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Chocos"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Cochas"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Colonia"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Hongos"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Huampara"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Huancaya"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Huangascar"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Huantan"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Huañec"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Laraos"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Lincha"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Madean"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Miraflores"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Omas"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Putinza"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Quinches"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Quinocay"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "San Joaquín"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "San Pedro de Pilas"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Tanta"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Tauripampa"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Tomas"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Tupe"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Viñac"
+  },
+  {
+    "department": "Lima",
+    "province": "Yauyos",
+    "district": "Vitis"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Iquitos"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Alto Nanay"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Fernando Lores"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Indiana"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Las Amazonas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Mazan"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Napo"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Punchana"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Torres Causana"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "Belén"
+  },
+  {
+    "department": "Loreto",
+    "province": "Maynas",
+    "district": "San Juan Bautista"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Yurimaguas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Balsapuerto"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Jeberos"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Lagunas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Santa Cruz"
+  },
+  {
+    "department": "Loreto",
+    "province": "Alto Amazonas",
+    "district": "Teniente Cesar López Rojas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Loreto",
+    "district": "Nauta"
+  },
+  {
+    "department": "Loreto",
+    "province": "Loreto",
+    "district": "Parinari"
+  },
+  {
+    "department": "Loreto",
+    "province": "Loreto",
+    "district": "Tigre"
+  },
+  {
+    "department": "Loreto",
+    "province": "Loreto",
+    "district": "Trompeteros"
+  },
+  {
+    "department": "Loreto",
+    "province": "Loreto",
+    "district": "Urarinas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Mariscal Ramón Castilla",
+    "district": "Ramón Castilla"
+  },
+  {
+    "department": "Loreto",
+    "province": "Mariscal Ramón Castilla",
+    "district": "Pebas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Mariscal Ramón Castilla",
+    "district": "Yavari"
+  },
+  {
+    "department": "Loreto",
+    "province": "Mariscal Ramón Castilla",
+    "district": "San Pablo"
+  },
+  {
+    "department": "Loreto",
+    "province": "Mariscal Ramón Castilla",
+    "district": "Santa Rosa de Loreto"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Requena"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Alto Tapiche"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Capelo"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Emilio San Martín"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Maquia"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Puinahua"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Saquena"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Soplin"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Tapiche"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Jenaro Herrera"
+  },
+  {
+    "department": "Loreto",
+    "province": "Requena",
+    "district": "Yaquerana"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Contamana"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Inahuaya"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Padre Márquez"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Pampa Hermosa"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Sarayacu"
+  },
+  {
+    "department": "Loreto",
+    "province": "Ucayali",
+    "district": "Vargas Guerra"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Barranca"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Cahuapanas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Manseriche"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Morona"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Pastaza"
+  },
+  {
+    "department": "Loreto",
+    "province": "Datem del Marañón",
+    "district": "Andoas"
+  },
+  {
+    "department": "Loreto",
+    "province": "Putumayo",
+    "district": "Putumayo"
+  },
+  {
+    "department": "Loreto",
+    "province": "Putumayo",
+    "district": "Rosa Panduro"
+  },
+  {
+    "department": "Loreto",
+    "province": "Putumayo",
+    "district": "Teniente Manuel Clavero"
+  },
+  {
+    "department": "Loreto",
+    "province": "Putumayo",
+    "district": "Yaguas"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tambopata",
+    "district": "Tambopata"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tambopata",
+    "district": "Inambari"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tambopata",
+    "district": "Las Piedras"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tambopata",
+    "district": "Laberinto"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Manu",
+    "district": "Manu"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Manu",
+    "district": "Fitzcarrald"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Manu",
+    "district": "Madre de Dios"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Manu",
+    "district": "Huepetuhe"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tahuamanu",
+    "district": "Iñapari"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tahuamanu",
+    "district": "Iberia"
+  },
+  {
+    "department": "Madre de Dios",
+    "province": "Tahuamanu",
+    "district": "Tahuamanu"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "Moquegua"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "Carumas"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "Cuchumbaya"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "Samegua"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "San Cristóbal"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "Torata"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Mariscal Nieto",
+    "district": "San Antonio"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Omate"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Chojata"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Coalaque"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Ichuña"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "La Capilla"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Lloque"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Matalaque"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Puquina"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Quinistaquillas"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Ubinas"
+  },
+  {
+    "department": "Moquegua",
+    "province": "General Sánchez Cerro",
+    "district": "Yunga"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Ilo",
+    "district": "Ilo"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Ilo",
+    "district": "El Algarrobal"
+  },
+  {
+    "department": "Moquegua",
+    "province": "Ilo",
+    "district": "Pacocha"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Chaupimarca"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Huachon"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Huariaca"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Huayllay"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Ninacaca"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Pallanchacra"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Paucartambo"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "San Francisco de Asís de Yarusyacan"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Simon Bolívar"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Ticlacayan"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Tinyahuarco"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Vicco"
+  },
+  {
+    "department": "Pasco",
+    "province": "Pasco",
+    "district": "Yanacancha"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Yanahuanca"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Chacayan"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Goyllarisquizga"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Paucar"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "San Pedro de Pillao"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Santa Ana de Tusi"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Tapuc"
+  },
+  {
+    "department": "Pasco",
+    "province": "Daniel Alcides Carrión",
+    "district": "Vilcabamba"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Oxapampa"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Chontabamba"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Huancabamba"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Palcazu"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Pozuzo"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Puerto Bermúdez"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Villa Rica"
+  },
+  {
+    "department": "Pasco",
+    "province": "Oxapampa",
+    "district": "Constitución"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Piura"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Castilla"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Catacaos"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Cura Mori"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "El Tallan"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "La Arena"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "La Unión"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Las Lomas"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Tambo Grande"
+  },
+  {
+    "department": "Piura",
+    "province": "Piura",
+    "district": "Veintiseis de Octubre"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Ayabaca"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Frias"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Jilili"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Lagunas"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Montero"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Pacaipampa"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Paimas"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Sapillica"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Sicchez"
+  },
+  {
+    "department": "Piura",
+    "province": "Ayabaca",
+    "district": "Suyo"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Huancabamba"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Canchaque"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "El Carmen de la Frontera"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Huarmaca"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Lalaquiz"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "San Miguel de El Faique"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Sondor"
+  },
+  {
+    "department": "Piura",
+    "province": "Huancabamba",
+    "district": "Sondorillo"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Chulucanas"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Buenos Aires"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Chalaco"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "La Matanza"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Morropon"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Salitral"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "San Juan de Bigote"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Santa Catalina de Mossa"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Santo Domingo"
+  },
+  {
+    "department": "Piura",
+    "province": "Morropón",
+    "district": "Yamango"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Paita"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Amotape"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Arenal"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Colan"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "La Huaca"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Tamarindo"
+  },
+  {
+    "department": "Piura",
+    "province": "Paita",
+    "district": "Vichayal"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Sullana"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Bellavista"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Ignacio Escudero"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Lancones"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Marcavelica"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Miguel Checa"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Querecotillo"
+  },
+  {
+    "department": "Piura",
+    "province": "Sullana",
+    "district": "Salitral"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "Pariñas"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "El Alto"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "La Brea"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "Lobitos"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "Los Organos"
+  },
+  {
+    "department": "Piura",
+    "province": "Talara",
+    "district": "Mancora"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Sechura"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Bellavista de la Unión"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Bernal"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Cristo Nos Valga"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Vice"
+  },
+  {
+    "department": "Piura",
+    "province": "Sechura",
+    "district": "Rinconada Llicuar"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Puno"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Acora"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Amantani"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Atuncolla"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Capachica"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Chucuito"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Coata"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Huata"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Mañazo"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Paucarcolla"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Pichacani"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Plateria"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "San Antonio"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Tiquillaca"
+  },
+  {
+    "department": "Puno",
+    "province": "Puno",
+    "district": "Vilque"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Azángaro"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Achaya"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Arapa"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Asillo"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Caminaca"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Chupa"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "José Domingo Choquehuanca"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Muñani"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Potoni"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Saman"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "San Anton"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "San José"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "San Juan de Salinas"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Santiago de Pupuja"
+  },
+  {
+    "department": "Puno",
+    "province": "Azángaro",
+    "district": "Tirapata"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Macusani"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Ajoyani"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Ayapata"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Coasa"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Corani"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Crucero"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Ituata"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Ollachea"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "San Gaban"
+  },
+  {
+    "department": "Puno",
+    "province": "Carabaya",
+    "district": "Usicayos"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Juli"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Desaguadero"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Huacullani"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Kelluyo"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Pisacoma"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Pomata"
+  },
+  {
+    "department": "Puno",
+    "province": "Chucuito",
+    "district": "Zepita"
+  },
+  {
+    "department": "Puno",
+    "province": "El Collao",
+    "district": "Ilave"
+  },
+  {
+    "department": "Puno",
+    "province": "El Collao",
+    "district": "Capazo"
+  },
+  {
+    "department": "Puno",
+    "province": "El Collao",
+    "district": "Pilcuyo"
+  },
+  {
+    "department": "Puno",
+    "province": "El Collao",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Puno",
+    "province": "El Collao",
+    "district": "Conduriri"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Huancane"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Cojata"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Huatasani"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Inchupalla"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Pusi"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Rosaspata"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Taraco"
+  },
+  {
+    "department": "Puno",
+    "province": "Huancané",
+    "district": "Vilque Chico"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Lampa"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Cabanilla"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Calapuja"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Nicasio"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Ocuviri"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Palca"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Paratia"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Pucara"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Santa Lucia"
+  },
+  {
+    "department": "Puno",
+    "province": "Lampa",
+    "district": "Vilavila"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Ayaviri"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Antauta"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Cupi"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Llalli"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Macari"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Nuñoa"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Orurillo"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "Puno",
+    "province": "Melgar",
+    "district": "Umachiri"
+  },
+  {
+    "department": "Puno",
+    "province": "Moho",
+    "district": "Moho"
+  },
+  {
+    "department": "Puno",
+    "province": "Moho",
+    "district": "Conima"
+  },
+  {
+    "department": "Puno",
+    "province": "Moho",
+    "district": "Huayrapata"
+  },
+  {
+    "department": "Puno",
+    "province": "Moho",
+    "district": "Tilali"
+  },
+  {
+    "department": "Puno",
+    "province": "San Antonio de Putina",
+    "district": "Putina"
+  },
+  {
+    "department": "Puno",
+    "province": "San Antonio de Putina",
+    "district": "Ananea"
+  },
+  {
+    "department": "Puno",
+    "province": "San Antonio de Putina",
+    "district": "Pedro Vilca Apaza"
+  },
+  {
+    "department": "Puno",
+    "province": "San Antonio de Putina",
+    "district": "Quilcapuncu"
+  },
+  {
+    "department": "Puno",
+    "province": "San Antonio de Putina",
+    "district": "Sina"
+  },
+  {
+    "department": "Puno",
+    "province": "San Román",
+    "district": "Juliaca"
+  },
+  {
+    "department": "Puno",
+    "province": "San Román",
+    "district": "Cabana"
+  },
+  {
+    "department": "Puno",
+    "province": "San Román",
+    "district": "Cabanillas"
+  },
+  {
+    "department": "Puno",
+    "province": "San Román",
+    "district": "Caracoto"
+  },
+  {
+    "department": "Puno",
+    "province": "San Román",
+    "district": "San Miguel"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Sandia"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Cuyocuyo"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Limbani"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Patambuco"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Phara"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Quiaca"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "San Juan del Oro"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Yanahuaya"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "Alto Inambari"
+  },
+  {
+    "department": "Puno",
+    "province": "Sandia",
+    "district": "San Pedro de Putina Punco"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Yunguyo"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Anapia"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Copani"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Cuturapi"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Ollaraya"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Tinicachi"
+  },
+  {
+    "department": "Puno",
+    "province": "Yunguyo",
+    "district": "Unicachi"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Moyobamba"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Calzada"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Habana"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Jepelacio"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Soritor"
+  },
+  {
+    "department": "San Martín",
+    "province": "Moyobamba",
+    "district": "Yantalo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "Bellavista"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "Alto Biavo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "Bajo Biavo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "Huallaga"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "San Pablo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Bellavista",
+    "district": "San Rafael"
+  },
+  {
+    "department": "San Martín",
+    "province": "El Dorado",
+    "district": "San José de Sisa"
+  },
+  {
+    "department": "San Martín",
+    "province": "El Dorado",
+    "district": "Agua Blanca"
+  },
+  {
+    "department": "San Martín",
+    "province": "El Dorado",
+    "district": "San Martín"
+  },
+  {
+    "department": "San Martín",
+    "province": "El Dorado",
+    "district": "Santa Rosa"
+  },
+  {
+    "department": "San Martín",
+    "province": "El Dorado",
+    "district": "Shatoja"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "Saposoa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "Alto Saposoa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "El Eslabón"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "Piscoyacu"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "Sacanche"
+  },
+  {
+    "department": "San Martín",
+    "province": "Huallaga",
+    "district": "Tingo de Saposoa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Lamas"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Alonso de Alvarado"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Barranquita"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Caynarachi"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Cuñumbuqui"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Pinto Recodo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Rumisapa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "San Roque de Cumbaza"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Shanao"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Tabalosos"
+  },
+  {
+    "department": "San Martín",
+    "province": "Lamas",
+    "district": "Zapatero"
+  },
+  {
+    "department": "San Martín",
+    "province": "Mariscal Cáceres",
+    "district": "Juanjuí"
+  },
+  {
+    "department": "San Martín",
+    "province": "Mariscal Cáceres",
+    "district": "Campanilla"
+  },
+  {
+    "department": "San Martín",
+    "province": "Mariscal Cáceres",
+    "district": "Huicungo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Mariscal Cáceres",
+    "district": "Pachiza"
+  },
+  {
+    "department": "San Martín",
+    "province": "Mariscal Cáceres",
+    "district": "Pajarillo"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Picota"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Buenos Aires"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Caspisapa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Pilluana"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Pucacaca"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "San Cristóbal"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "San Hilarión"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Shamboyacu"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Tingo de Ponasa"
+  },
+  {
+    "department": "San Martín",
+    "province": "Picota",
+    "district": "Tres Unidos"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Rioja"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Awajun"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Elías Soplin Vargas"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Nueva Cajamarca"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Pardo Miguel"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Posic"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "San Fernando"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Yorongos"
+  },
+  {
+    "department": "San Martín",
+    "province": "Rioja",
+    "district": "Yuracyacu"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Tarapoto"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Alberto Leveau"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Cacatachi"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Chazuta"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Chipurana"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "El Porvenir"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Huimbayoc"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Juan Guerra"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "La Banda de Shilcayo"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Morales"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Papaplaya"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "San Antonio"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Sauce"
+  },
+  {
+    "department": "San Martín",
+    "province": "San Martín",
+    "district": "Shapaja"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Tocache"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Nuevo Progreso"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Polvora"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Shunte"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Uchiza"
+  },
+  {
+    "department": "San Martín",
+    "province": "Tocache",
+    "district": "Santa Lucia"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Tacna"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Alto de la Alianza"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Calana"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Ciudad Nueva"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Inclan"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Pachia"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Palca"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Pocollay"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Sama"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "Coronel Gregorio Albarracín Lanchipa"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tacna",
+    "district": "La Yarada los Palos"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Candarave"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Cairani"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Camilaca"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Curibaya"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Huanuara"
+  },
+  {
+    "department": "Tacna",
+    "province": "Candarave",
+    "district": "Quilahuani"
+  },
+  {
+    "department": "Tacna",
+    "province": "Jorge Basadre",
+    "district": "Locumba"
+  },
+  {
+    "department": "Tacna",
+    "province": "Jorge Basadre",
+    "district": "Ilabaya"
+  },
+  {
+    "department": "Tacna",
+    "province": "Jorge Basadre",
+    "district": "Ite"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Tarata"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Héroes Albarracín"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Estique"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Estique-Pampa"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Sitajara"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Susapaya"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Tarucachi"
+  },
+  {
+    "department": "Tacna",
+    "province": "Tarata",
+    "district": "Ticaco"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "Tumbes"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "Corrales"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "La Cruz"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "Pampas de Hospital"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "San Jacinto"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Tumbes",
+    "district": "San Juan de la Virgen"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Contralmirante Villar",
+    "district": "Zorritos"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Contralmirante Villar",
+    "district": "Casitas"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Contralmirante Villar",
+    "district": "Canoas de Punta Sal"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Zarumilla",
+    "district": "Zarumilla"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Zarumilla",
+    "district": "Aguas Verdes"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Zarumilla",
+    "district": "Matapalo"
+  },
+  {
+    "department": "Tumbes",
+    "province": "Zarumilla",
+    "district": "Papayal"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Calleria"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Campoverde"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Iparia"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Masisea"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Yarinacocha"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Nueva Requena"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Coronel Portillo",
+    "district": "Manantay"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Atalaya",
+    "district": "Raymondi"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Atalaya",
+    "district": "Sepahua"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Atalaya",
+    "district": "Tahuania"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Atalaya",
+    "district": "Yurua"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Padre Abad"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Irazola"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Curimana"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Neshuya"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Alexander Von Humboldt"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Huipoca"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Padre Abad",
+    "district": "Boqueron"
+  },
+  {
+    "department": "Ucayali",
+    "province": "Purús",
+    "district": "Purus"
+  }
+]
